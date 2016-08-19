@@ -1,0 +1,79 @@
+The Mikado Method: Software Development Process for Exploring Code
+
+William Chan
+Senior Software Engineer, Linear Integrations
+wchan@freewheel.tv
+
+* History
+
+Mikado was a game where you try to remove sticks without moving other sticks of the game.
+
+* Overview
+
+*Problem*
+
+Often times, we have to add code to code that we hadn't written. We'll have to navigate a code base we're not familiar with and be careful stepping on the land mines...
+
+*Solution*
+
+Getting more familiar with the code... but its not always easy to pick a point to start.
+
+* Here's where Mikado Method steps in...
+
+The Mikado Method is formal approach to getting familiar with code by experimenting and exploration. The idea is to not be stuck in the analyzing phase but to take action as often it reveals more than what can be analyzed.
+
+1. Set a goal - the success criteria for the change
+2. Experiment - the procedure to making a discovery or validating a hypothesis
+3. Visualize - a graph of all the prerequisites that lead to the goal
+4. Undo - restore the code to a previously working state if there are breaking changes (that's right, `git reset` HARD, no pun intended)
+
+* The Mikado Method: Workflow Diagram
+
+.image images/mikado_method_flow_chart.png
+
+* Sample Goals
+
+Goals should be business focused
+
+- "Customer address is retrieved using the latest version of the third-party API"
+- "Timeouts don't affect the user experience"
+
+* Sample Experiments
+
+- Extract a class
+- Reduce the scope of a variable
+- Move a method
+
+* Sample Visualization
+
+.image images/completed_mikado_graph.png
+
+* Undo?
+
+May feel wasteful but changing complex code in an unknown state could be error prone.
+
+* The Mikado Method: The Good
+
+- Great for refactoring projects
+- Adding features to uncharted terrority
+- Can be used to make code more testable and add tests gradually
+
+* The Mikado Method: The Bad
+
+- Feels a little tedious and wasteful to undo changes
+- Works great for statically typed languages but a little more difficult for dynamically typed languages
+- Difficult if there aren't already tests or feedback loops in place
+
+
+* Conclusion
+
+- The Mikado Method defines clear guidelines
+- The Mikado Method can be altered one way or another
+- Many developers tend to use methodologies similar to the Mikado Method, usually based from experience
+- Undoing and re-doing the code is quite burdensome
+- The Mikado method is a great starting point for those that don't know where to start
+
+* Reference
+
+.link https://www.manning.com/books/the-mikado-method The Mikado Method by Ola Ellnestam and Daniel Brolund
+
