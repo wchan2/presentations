@@ -64,6 +64,12 @@ May feel wasteful but changing complex code in an unknown state could be error p
 - Works great for statically typed languages but a little more difficult for dynamically typed languages
 - Difficult if there aren't already tests or feedback loops in place
 
+* My Adapted Mikado Method
+
+1. Set a goal (generally a ticket)
+2. Code from the entry point
+3. Review code changes made and see if they make sense
+4. Run tests, compile, and iterate; if there are no tests, go through rounds of manual testing
 
 * Conclusion
 
