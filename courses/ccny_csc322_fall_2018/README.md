@@ -1,4 +1,4 @@
-# CCNY: CSC 322 Software Engineering Syllabus
+# CCNY: CSC 322 Software Engineering Fall 2018 Syllabus
 
 ## Objective
 
@@ -28,9 +28,9 @@ The goal of this course is to gain experience developing a project using modern 
 
 | Date | Topic | Slides | Assignment |
 | --- | --- | --- | --- |
-| 8/29/2018 | Introduction to Software Engineering | TBD | TBD |
-| 9/5/2018 | *No Class* | None | TBD |
-| 9/12/2018 | Overview: Software Development in Practice | TBD | TBD |
+| 8/29/2018 | Introduction to Software Engineering | None | None |
+| 9/5/2018 | *No Class* | None | None |
+| 9/12/2018 | Software Development in Practice | TBD | [Link](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/software_dev_in_practice.pdf) |
 | 9/19/2018 | *No Class* | TBD | TBD |
 | 9/26/2018 | Software Development Methodologies | TBD | TBD |
 | 10/3/2018 | Product Development & Requirements Gathering | TBD | TBD |
