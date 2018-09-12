@@ -30,11 +30,11 @@ The goal of this course is to gain experience developing a project using modern 
 | --- | --- | --- | --- |
 | 8/29/2018 | Introduction to Software Engineering | None | None |
 | 9/5/2018 | *No Class* | None | None |
-| 9/12/2018 | Software Development in Practice | TBD | [Link](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/software_dev_in_practice.pdf) |
+| 9/12/2018 | Software Development in Practice | [Link](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/software_dev_in_practice.pdf) | None |
 | 9/19/2018 | *No Class* | TBD | TBD |
 | 9/26/2018 | Software Development Methodologies | TBD | TBD |
 | 10/3/2018 | Product Development & Requirements Gathering | TBD | TBD |
-| 10/10/2018 | Introduction: Systems Design | None | TBD |
+| 10/10/2018 | Introduction: Systems Design | TBD | TBD |
 | 10/17/2018 | Software Development Process Midterm | None | None |
 | 10/24/2018 | UML Diagramming: Use Case Diagram | TBD | TBD |
 | 10/31/2018 | UML Diagramming: Sequence Diagram | TBD | TBD |
