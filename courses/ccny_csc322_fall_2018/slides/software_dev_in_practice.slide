@@ -232,6 +232,8 @@ The driver in the pair programming practice makes decisions and drives the imple
 
 * Why Mob Programming?
 
+Entire team sits in a room to design and implement a feature together
+
 *Advantages*
 
 - Engineering team can get transparency and understand the whole entire system
@@ -246,6 +248,8 @@ The driver in the pair programming practice makes decisions and drives the imple
 - There may be equal priority items that needs attention
 
 * Why Extreme Programming?
+
+Religious practice of test driven development, pair programming and common software development practices such as having exploration, planning, code reviews, small releases, continuous integration and deployment
 
 *Advantages*
 
