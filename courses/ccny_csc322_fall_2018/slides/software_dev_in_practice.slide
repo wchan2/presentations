@@ -81,6 +81,8 @@ Note: More to come in future slides
 
 * Software Engineering Organization Structure
 
+Structures and hierarchies of organizations often prioritizes certain capabilities over others
+
 - Functional - groups of people under functions such as front end developers, back end developers, etc
 - Divisional - cross functional teams where there may be front end developers, back end developers, product managers, etc
 - Matrix - organized around different products that are delivered
@@ -199,6 +201,61 @@ Focuses on the big picture view of a system that may spans multiple teams. Below
 - Pair programming - often two engineers that sit together, one being the driver, telling the other how to implement a feature
 - Mob programming - the whole team sits in a room to design and build a feature together
 - Extreme Programming - a combination of pair programming but largely taking a more test driven approach
+
+* Why Distributed Teams?
+
+*Advantages*
+
+- Greater access to engineers located anywhere
+- Salaries paid could be minimized if your team is not based in a large metro area
+
+*Disadvantages*
+
+- It could be an HR logistics nightmare
+- Communication and team coordination has increased overhead
+- Managing and aligning team expectations could be difficult
+
+* Why Pair Programming?
+
+The driver in the pair programming practice makes decisions and drives the implementation of a feature while the navigator reviews the code as its being written. It is better to switch up the roles every 25 minutes to keep both engineers engaged otherwise the navigator may slowly disengage. 
+
+*Advantages*
+
+- Two people can collaborate and design a feature
+- Additional person to check for mistakes and bugs
+- Transfer of knowledge from a senior engineer to a junior engineer
+
+*Disadvantages*
+
+- The more senior engineer may not be learning or may be disengaged
+- The more junior engineer may rely too much on the more senior engineer
+
+* Why Mob Programming?
+
+*Advantages*
+
+- Engineering team can get transparency and understand the whole entire system
+- Design can be improved since it will be well understood by the entire team
+- Works well when there is a fair amount of uncertainty in the feature that is being delivered
+
+*Disadvantages*
+
+- Requires everyone in a single room
+- Some engineers may disengage as in pair programming
+- Doesn't work well if the feature is well understood
+- There may be equal priority items that needs attention
+
+* Why Extreme Programming?
+
+*Advantages*
+
+- Same as pair programming where knowledge transfer is present and bugs can be minimized with someone reviewing as code is being written
+- Tests are often more meaningful and acts as feature specifications
+
+*Disadvantages*
+
+- Rigid approach that will take time getting used to
+- Work that has a fair amount of uncertainty is often difficult to write tests for
 
 * Software Development Workflow
 
