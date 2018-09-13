@@ -1,9 +1,8 @@
 Software Development in Practice
-How software engineering teams really work?
+How software engineering teams really work
 
 William Chan
 Lead Platform Engineer, 605.tv, Capital One, FreeWheel (Comcast)
-wchan@605.tv
 http://linkedin.com/in/wchan2
 
 * Course Objective
@@ -18,6 +17,7 @@ http://linkedin.com/in/wchan2
 2. Product Development and Requirements
 3. Software Design
 4. Software Implementation
+5. Software Testing
 
 * Project Breakdown + Technical Requirements
 
@@ -330,9 +330,12 @@ Religious practice of test driven development, pair programming and common softw
 Below are some commands that you can use for your software development workflow
 
   git clone <name of your repo>         # pull down from an initiated project
-  git pull origin master                # assuming you have a branch called master
+  git pull origin master                # assuming you have a branch called master; origin is a default remote
   git checkout -b <name of your branch> # checks out a new branch
-  git push origin <name of your branch> # allows you to create a pull request
+  git push origin <name of your branch> # allows you push your branch to a remote named origin
+
+  git add <name of files that you changed/added>  # adding changed files; note: this doesn't commit the files
+  git commit -m "<commit message>"                # adding a commit with a message locally; note: you will still need to push this a remote branch
 
 Note: there are some more sophisticated command but this will do for now
 
