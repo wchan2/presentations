@@ -29,13 +29,13 @@ Choosing a project that will help you succeed in this course for grades sake
 
 * Presentation Breakdown
 
-1. *Product*: Discuss the overall product mission and what your application intends to solve; may include business idea and notes
-2. *Planning*: Milestones for the application from the beginning of the semester to the end of the semester and how you came to choosing a software development methodology
-3. *Requirements*: List the requirements and reasons behind why that constitutes your MVP
-4. *Technical* *Design*: UML diagrams and additional slides that demonstrates the reason to the design
-5. *Tests*: What tests will you have in place to ensure the quality of your application
-6. *Demo*: Be able to present a partial or preferably a full demo; if its a partial demo, explain why the project could not be completed as is
-7. *Retrospective*: knowing what you know after having implemented the project, what would you have changed or think you can do better?
+1. *Product*: What problem does your product solve?
+2. *Planning*: What software methodology did you choose? Why? What milestones if any were put in place?
+3. *Requirements*: What were the requirements for your minimal viable product (MVP)? Why?
+4. *Technical* *Design*: UML diagrams and the high overview of the components in your software
+5. *Tests*: What tests will you have in place to ensure the quality of your application?
+6. *Demo*: Full demo ideally or present what you have and mention why it didn't turn out the way you hoped in your retrospective
+7. *Retrospective*: What tests will you have in place to ensure the quality of your application?
 8. Questions: The ability to defend any section of the presentation
 
 Note: there will be assignments that will be the milestones that can be laid out in the presentation

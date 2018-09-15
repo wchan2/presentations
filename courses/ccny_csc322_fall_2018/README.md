@@ -24,6 +24,16 @@ The goal of this course is to gain experience developing a project using modern 
 | Project Presentation + Demo | 20% | 12/19/2018 |
 | 360 Reviews | 10% | 12/19/2018 |
 
+## Project and Presentation Breakdown
+
+1. Product: What problem does your product solve?
+2. Planning: What software methodology did you choose? Why? What milestones if any were put in place?
+3. Requirements: What were the requirements for your minimal viable product (MVP)? Why?
+4. Technical Design: UML diagrams and the high overview of the components in your software
+5. Tests: What tests will you have in place to ensure the quality of your application?
+6. Demo: Full demo ideally or present what you have and mention why it didn't turn out the way you hoped in your retrospective
+7. Retrospective: What worked well and what didn't? What could you have done better knowing what you know now?
+
 ## Schedule and Slides
 
 | Date | Topic | Slides | Assignment |
