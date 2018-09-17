@@ -1,0 +1,160 @@
+Software Development in Practice
+How software engineering teams really work
+
+William Chan
+Lead Platform Engineer, 605.tv, Capital One, FreeWheel (Comcast)
+http://linkedin.com/in/wchan2
+
+* Objectives
+
+- What are the different software methodologies?
+- When to use one methodology over another?
+
+* Why Software Development Methodologies?
+
+Software development methodologies are ways that you can use and follow to operationalize your team to *deliver software that provides value to your customers*
+
+* General Development Process Reviewed
+
+1. Define the product
+2. Gather requirements
+3. Design the application
+4. Implement the application
+5. Test the application
+6. Release the application
+7. Gather user feedback
+
+* Waterfall
+
+Thought process: The more time spent on upfront design, the less time and effort it'll require later on
+
+- Requires a highly structured approach
+- Requires thorough documentation
+- Usually provides visible and linear milestones
+- Suited for projects whose requirements and scope are fixed and that the technology is well understood
+
+* Phases: Waterfall
+
+1. Requirements
+2. Design
+3. Implementation
+4. Testing
+5. Release
+6. Verification
+
+* Waterfall
+
+.image images/waterfall.jpg
+
+Source: http://jaymeholmes.com/jad.html
+
+* Waterfall Model's Shortcomings
+
+- Requirements often do change leading to increased costs when found at later stages of the development life cycle
+- Unforeseen complexity in the technology or product logic
+
+* Agile Revolution
+
+Problem: Waterfall didn't match real world expectations
+
+Solution: The introduction of *agile* methodologies, essentially shorter waterfall cycles
+
+* What is agile?
+
+Thought process: Change is constant and complexity can not be completely known
+
+- Shorter development cycles to allow quick and early feedback
+- Prioritizes learning and adaptation to respond quickly to changes
+- Ship a "workable" product in each cycle
+
+* Phases: Agile Methodologies
+
+Very similar to waterfall but instead of months, quarters or years, think *weeks* to complete a small feature set based on the following.
+
+1. Requirements
+2. Design
+3. Implementation
+4. Testing
+5. Release
+6. Verification
+
+* Agile
+
+.image images/agile.jpg
+
+Source: https://medium.com/@arun_87007/8-benefits-of-implementing-agile-methodology-in-your-project-b3552debeb0d
+
+* Agile Manifesto
+
+.image images/agile_manifesto.png
+
+* Principles behind the Agile Manifesto
+
+We follow these principles:
+Our highest priority is to satisfy the customer
+through early and continuous delivery
+of valuable software.
+
+Welcome changing requirements, even late in 
+development. Agile processes harness change for 
+the customer's competitive advantage.
+
+Deliver working software frequently, from a 
+couple of weeks to a couple of months, with a 
+preference to the shorter timescale.
+
+Business people and developers must work 
+together daily throughout the project.
+
+* Principles behind the Agile Manifesto Cont'd
+
+Build projects around motivated individuals. 
+Give them the environment and support they need, 
+and trust them to get the job done.
+
+The most efficient and effective method of 
+conveying information to and within a development 
+team is face-to-face conversation.
+
+Working software is the primary measure of progress.
+
+Agile processes promote sustainable development. 
+The sponsors, developers, and users should be able 
+to maintain a constant pace indefinitely.
+
+Continuous attention to technical excellence 
+and good design enhances agility.
+
+* Principles behind the Agile Manifesto Cont'd
+
+Simplicity--the art of maximizing the amount 
+of work not done--is essential.
+
+The best architectures, requirements, and designs 
+emerge from self-organizing teams.
+
+At regular intervals, the team reflects on how 
+to become more effective, then tunes and adjusts 
+its behavior accordingly.
+
+* Agile Methodologies
+
+- Kanban
+- SCRUM
+- SAFe
+- LeSS
+- Lean
+
+* SCRUM
+
+* Phases: SCRUM
+
+* SAFe
+
+* LeSS
+
+* Lean
+
+* Resources and Books
+
+- Learning Agile
