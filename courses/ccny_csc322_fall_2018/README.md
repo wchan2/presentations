@@ -7,10 +7,15 @@ The goal of this course is to gain experience developing a project using modern 
 ## Course Outline
 
 - Learn different software development methodologies
-- Work in an *Agile* environment using SCRUM
+- Work in an *Agile* environment using SCRUM and related methodologies
 - Designing the application and UML diagramming the application
 - Hands-on experience working on a project with real work scenarios and roles
 - Most importantly learn from mistakes and where your team can improve
+
+## Office Hours
+
+**Time**: Wed 5:30pm to 6:15pm\
+**Location**: TBD
 
 ## Grading Policy and Breakdown
 
@@ -34,6 +39,8 @@ The goal of this course is to gain experience developing a project using modern 
 6. Demo: Full demo ideally or present what you have and mention why it didn't turn out the way you hoped in your retrospective
 7. Retrospective: What worked well and what didn't? What could you have done better knowing what you know now?
 
+For more details, click [here](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/project.md).
+
 ## Schedule and Slides
 
 | Date | Topic | Slides | Assignment |
@@ -44,15 +51,15 @@ The goal of this course is to gain experience developing a project using modern 
 | 9/19/2018 | *No Class* |  |  |
 | 9/26/2018 | Software Development Methodologies | [Download](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/software_dev_methodologies.pdf) |  |
 | 10/3/2018 | Product Development & Requirements Gathering | [Download](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/product_dev_and_requirements.pdf) |  |
-| 10/10/2018 | Introduction: Systems Design | TBD | TBD |
-| 10/17/2018 | Software Development Process Midterm |  |  |
+| 10/10/2018 | Introduction: Systems Design | TBD |  |
+| 10/17/2018 | Software Development Process Midterm |  | [Requirements](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/requirements.md) |
 | 10/24/2018 | UML Diagramming: Use Case Diagram | TBD |  |
 | 10/31/2018 | UML Diagramming: Sequence Diagram | TBD |  |
 | 11/7/2018 | UML Diagramming: Class Diagram | TBD |  |
-| 11/14/2018 | UML Diagramming Midterm |  | TBD |
+| 11/14/2018 | UML Diagramming Midterm |  | [UML](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/uml.md) |
 | 11/21/2018 | Software Testing: Unit Testing and Acceptance Testing | TBD |  |
 | 11/28/2018 | Continuous Integration & Delivery | TBD |  |
 | 12/5/2018 | Software Engineering Ethics | TBD |  |
 | 12/12/2018 | Final |  |  |
-| 12/19/2018 | Presentations | TBD | TBD |
+| 12/19/2018 | Presentations | TBD | [Presentations](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/project.md) |
 
