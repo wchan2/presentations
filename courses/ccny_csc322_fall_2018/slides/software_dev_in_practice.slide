@@ -73,7 +73,7 @@ Note: there will be assignments that will be the milestones that can be laid out
 - Waterfall - lots of time spent thinking about the design and make sure all edge cases are covered, aim to complete the implementation in one cycle and then demo to client
 - Kanban - no defined timeline but stories or tickets are groomed constantly to ensure that priorities are always on the top of the backlog
 - SCRUM, SAFe, LeSS and other variants - like kanban but in the form of sprints to measure that given a same length cycle, determine the velocity at which the team completes tickets and stories
-- Lean - based on doing the minimal viable set every time and work to eliminate wasteful work
+- Lean - based on delivering value and eliminating waste
 
 Note: More to come in future slides
 
@@ -285,6 +285,7 @@ Religious practice of test driven development, pair programming and common softw
 - Version Control: Git, SVN, CVS, Mercurial, Bazaar
 - Repository Management: GitHub, GitLab, Bitbucket
 - Project Management: Jira, Pivotal Tracker, Trello, Asana
+- Chat: Slack, Hipchat
 - UML Diagrams: PlantUML, yUML, Mermaid
 - Text Editors/IDE: Intellij IDEA, Eclipse, Sublime Text 2/3, Atom, Visual Studio Code
 - Continuous Integration & Delivery: TravisCI, Jenkins, CodeShip, CircleCI, Weave
@@ -308,6 +309,12 @@ Religious practice of test driven development, pair programming and common softw
 - To better coordinate between team members what tasks should be worked on
 - For managers to keep track of the progress of tickets
 - To better break down tasks into manageable and completable pieces of work
+
+* Why Chat Software?
+
+- To allow teams and individuals to be in constant communication to remove impediments
+- To allow teams and individuals to collaborate on solving potentially solved problems through code
+- To receive constant updates from project management software, repository management software and diagramming software integrations
 
 * Why UML Diagrams?
 
