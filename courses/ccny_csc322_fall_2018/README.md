@@ -1,5 +1,10 @@
 # CCNY: CSC 322 Software Engineering Fall 2018 Syllabus
 
+## Instructor
+
+William Chan\
+[wchan3@ccny.cuny.edu](mailto:wchan3@ccny.cuny.edu)
+
 ## Objective
 
 The goal of this course is to gain experience developing a project using modern software development methodologies and patterns. All from product ideation to creation.
@@ -14,7 +19,7 @@ The goal of this course is to gain experience developing a project using modern 
 
 ## Office Hours
 
-**Time**: Wed 5:30pm to 6:15pm\
+**Time**: Wed 5:30pm to 6:15pm ET\
 **Location**: TBD
 
 ## Grading Policy and Breakdown
