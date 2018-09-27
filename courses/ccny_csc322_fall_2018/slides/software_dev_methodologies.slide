@@ -1,4 +1,4 @@
-Software Development in Practice
+Software Development Methodologies
 How software engineering teams really work
 
 William Chan
@@ -213,7 +213,7 @@ its behavior accordingly.
 - Kanban - based on the flow of work and the elimination of wastes, focusing just on the value delivered
 - Scrumban - combination of scrum and kanban
 
-*For larger organizations*
+*For* *larger* *organizations*
 - LeSS - large scale scrum; like scrum but focused on larger product developments with coordination efforts
 - SAFe - scaled agile framework; like scrum but for larger teams building a hierarchy to which multiple scrum teams report into called the agile release train
 
@@ -325,7 +325,7 @@ Abbreviation: Large Scale Scrum
 - One product owner
 
 *Differences* *from* *Scrum*
-- Single product product backlog (as if it were a single team)
+- Single product backlog (as if it were a single team)
 - Same deliverable of a shippable product at the end of each sprint (as if it were a single team)
 - Cross functional teams
 
