@@ -38,6 +38,7 @@ At a minimum, the presentation should include the following sections.
 2. Planning
     1. What software development methodology did you choose? Why?
     2. What were some of the milestones that you set? Why?
+    3. What are some tools your team decided to use? Why?
 3. Requirements
     1. List the important user stories and breakdown of your project eg. login is standard and not important to the feature set but searching for a product to buy as part of an eCommerce application could be important
 4. Technical Design
@@ -52,8 +53,9 @@ At a minimum, the presentation should include the following sections.
 7. Retrospective
     1. Based on the above sections, what did you feel were useful and what did you wish you had known?
     2. Reflect on your experiences, did you feel like you had a better grasp or developing software to solve a given problem? Why or why not?
-    3. Did you change the way you worked, the requirements, etc while working on the project? Why?
-    4. Did you have conflicts with team members? How did you work to resolve them?
+    3. How did you end up using the software development tools you used? Did you change the way you used the tools throughout the phase of the project?
+    4. Did you change the way you worked, the requirements, etc while working on the project? Why?
+    5. Did you have conflicts with team members? How did you work to resolve them?
 
 ## Presentation Rubric
 
