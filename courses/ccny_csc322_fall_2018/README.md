@@ -5,6 +5,11 @@
 William Chan\
 [wchan3@ccny.cuny.edu](mailto:wchan3@ccny.cuny.edu)
 
+## Office Hours
+
+**Time**: Wed 5:30pm to 6:15pm ET\
+**Location**: TBD
+
 ## Objective
 
 The goal of this course is to gain experience developing a project using modern software development methodologies and patterns. All from product ideation to creation.
@@ -16,11 +21,6 @@ The goal of this course is to gain experience developing a project using modern 
 - Designing the application and UML diagramming the application
 - Hands-on experience working on a project with real work scenarios and roles
 - Most importantly learn from mistakes and where your team can improve
-
-## Office Hours
-
-**Time**: Wed 5:30pm to 6:15pm ET\
-**Location**: TBD
 
 ## Grading Policy and Breakdown
 
