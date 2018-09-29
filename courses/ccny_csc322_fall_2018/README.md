@@ -44,7 +44,21 @@ The goal of this course is to gain experience developing a project using modern 
 6. Demo: Full demo ideally or present what you have and mention why it didn't turn out the way you hoped in your retrospective
 7. Retrospective: What worked well and what didn't? What could you have done better knowing what you know now?
 
-For more details, click [here](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/project.md).
+For more details, click [here](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/presentations.md).
+
+## 360 Reviews Guidelines and Guidance
+
+Each member of the team will grade another member on the team. This is where you honestly grade each other based on contribution. _This will be modeled after the way performance reviews are done at most organizations_.
+
+A grading sheet will be handed out during class before presentations and will be handed in after that class.
+
+**Note**: Please don't grade individuals purely based on how technical someone else. Please put more emphasis into how proactive they are, how helpful they are and how much they actually contributed. Remember contributions are not always purely technical. Some examples could be, facilitating and helping the team improve communication, etc. _Try to give specific examples_.
+
+1. What did the team member contribute to?
+2. How did the team member contribute to the project?
+3. Did you feel like the team member was inclusive? What did they do or didn't do to make you feel that way?
+4. Would you work with this individual in a professional setting? Why or why not?
+5. From a score of 1 to 10 with 10 being the best, how will you grade the team member?
 
 ## Schedule and Slides
 

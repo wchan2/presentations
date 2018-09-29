@@ -66,14 +66,3 @@ At a minimum, the presentation should include the following sections.
 5. Tests (10 points)
 6. Demo (10 points)
 7. Retrospective (20 points)
-
-## 360 Reviews Guidelines
-
-Each member of the team will grade another member on the team. This is where you honestly grade each other based on contribution. _This will be modeled after the way performance reviews are done at most organizations_.
-
-**Note**: Please don't grade individuals purely based on how technical someone else. Please put more emphasis into how proactive they are, how helpful they are and how much they actually contributed. Remember contributions are not always purely technical. Some examples could be, facilitating and helping the team improve communication, etc. _Try to give specific examples_.
-
-1. What did the team member contribute to?
-2. How did the team member contribute to the project?
-3. Did you feel like the team member was inclusive? What did they do or didn't do to make you feel that way?
-4. Would you work with this individual in a professional setting? Why or why not?
