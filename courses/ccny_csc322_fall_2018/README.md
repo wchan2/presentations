@@ -66,5 +66,5 @@ For more details, click [here](https://github.com/wchan2/presentations/blob/mast
 | 11/28/2018 | Continuous Integration & Delivery | TBD |  |
 | 12/5/2018 | Software Engineering Ethics | TBD |  |
 | 12/12/2018 | Final |  |  |
-| 12/19/2018 | Presentations | TBD | [Presentations](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/project.md) |
+| 12/19/2018 | Presentations | TBD | [Presentations](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/presentations.md) |
 
