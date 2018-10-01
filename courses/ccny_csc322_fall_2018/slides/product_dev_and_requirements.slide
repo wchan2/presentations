@@ -61,7 +61,28 @@ Source: https://www.alexandercowan.com/creating-a-lean-startup-style-assumption-
 
 Source: https://www.researchgate.net/figure/Innovation-Funnel-Source-wwwsopheoncom-idea-concept-development_fig3_282909259
 
-* Product Process in More Detail
+* Shaping and Defining Your Product
+
+* The Minimal Viable Product Pyramid
+
+.image images/mvp_pyramid.png
+
+Source: https://twitter.com/jopas/status/515301088660959233
+
+* Developing an MVP is like Sketching
+
+.image images/developing_mvp.png
+
+Source: https://mobidev.biz/blog/telling_the_difference_wireframes_prototypes_mockups
+
+* MVP Tools
+
+- Balsamiq - low fidelity; https://balsamiq.com/
+- invision - med to high fidelity; https://www.invisionapp.com/
+- JUSTINMIND - med to high fidelity; https://www.justinmind.com
+- Adobe XD - med to high fidelity; https://www.adobe.com/products/xd.html
+- OmniGraffle - med to high fidelity; https://www.omnigroup.com/omnigraffle/
+- Gliffy - low fidelity; https://www.gliffy.com/
 
 * User Research & Usability Testing
 
@@ -69,21 +90,85 @@ Source: https://www.researchgate.net/figure/Innovation-Funnel-Source-wwwsopheonc
 
 Source: https://launchdarkly.com/blog/the-new-way-to-conduct-real-time-user-research/
 
+* User Research
+
+User Research has some overlaps with market research, its a way of finding prospective customers but on the product level what your application will solve for them
+
+- Persona - a specific demographic of users being targeted
+- Problem hypothesis - hypothesis about the way the application solves a problem is valued
+- Value hypothesis - comparison of how your product compares to similar products in the market
+
 * How to do Usability Testing?
 
-TBD
+Think of Usability Testing as a more interactive way to survey your users
+
+- Contextual testing - observing how users will use your product
+- User interviews - interview prospective and current customers to see how your product solves their problems
+- Analytics - incorporate Google Analytics, Mixpanel or custom software to track user engagement and actions
+
+* What are somethings to measure in Usability Testing?
+
+- How are they using your application?
+- How long does it take for a user to successfully complete a task?
+- How satisfied are the users with the application?
+- What are some of the other feature requests do users have?
+- What are the users looking at? (Eye tracking)
+
+* Hallway Testing
+
+Ask a random person in the hallway and run them through the application and survey them as they use your application
+
+* A/B Testing
+
+Hypothesize an experiment that includes a change in the user interface that will influence a certain behavior and measure the behavior.
+
+1. Have multiple versions of the application and send random users that visit the different versions
+2. Track the way they use the application and see if there is a version of the application that yields better results
+
+_Example_:
+
+The Experiment: Changing the color of a button to red makes it more *findable*.
+
+The Measurement: Tracking click through rates of the button to see if it had increased.
+
+* Analytics Tools
+
+* Mixpanel
+
+.image images/mixpanel_product_retention.png
+
+Source: https://medium.com/@drewmck/how-to-measure-your-products-retention-the-most-misunderstood-and-undervalued-metric-c1515fcc1782
+
+* Google Analytics
+
+.image images/google_analytics_user_flow.png
+
+Source: https://www.techwyse.com/blog/website-analytics/a-beginners-guide-to-google-analytics-users-flow/
 
 * Acceptance Testing
 
-- aligning TDD principles to business functionality
+- Typically testing a feature to ensure that it satisfies the acceptance criteria from the product Manager
+- Aligns tests to business functionality rather than testing just implementation
+
+* Business-to-Business Products (B2B)
+
+* New Product Development Process
+
+.image images/new_product_dev_process.png
+
+Source: https://nyccto.wordpress.com/2011/06/10/new-product-development-process-building-launching-products-the-right-way/
 
 * Training & Sales Support
 
-TBD
+- Demo the application and run through use cases of the application
+- Prepare documentation to help new users get on boarded
+- Hold training seminars to teach users how to use the application
 
 * Maintenance & Technical Support
 
-TBD
+- Prepare documentation for support teams
+- Organize the service level agreements on the feature set the product delivers
+- Create a support organization that customers can reach to get questions answered
 
 * User Experience
 
@@ -96,6 +181,12 @@ TBD
 5. Desirable - the product builds identity and desirable eg. porsche vs skoda
 6. Accessible - the product is easy accessible to people with disabilities
 7. Valuable - the product delivers business value
+
+* User Experience Mapping
+
+.image images/user_experience_mapping.jpg
+
+Source: https://www.pinterest.com/pin/114349278014810532/
 
 * Requirements: What not to do
 
@@ -118,6 +209,7 @@ _Employee_: No problem. I’ve written this up, and will hand it to my cake deco
 .image images/requirements_comic_1.jpg
 
 Source: User Story Mapping by Jeff Paton and Peter Economy
+*Note*: For more cake stories, see http://www.cakewrecks.com/
 
 * Developing a Swing
 
