@@ -16,23 +16,60 @@ http://linkedin.com/in/wchan2
 
 * Recap: Product Manager Responsibilities
 
-TBD
+- Product ideation - coming up with an idea and a hypothesis for the idea
+- Product marketing - evaluating whether there is a market for a given product
+- Product strategy - determine the minimal viable product and the value of the product
+- Product roadmap - planning the feature development of the product
 
 * Recap: The Scrum Master/Project Manager
 
-TBD
+- Ensure the timely deliverables
+- Surfacing it up early and removing impediments that engineers are experiencing
+- Determine the risk of delivery and raising that up the chain
 
-* The Misconception: Product Manager vs Project Manager
+* Product Manager vs Project Manager
 
-TBD
+*Product* *manager* is focused on a mission or a business opportunity in delivering software solution to a problem
+
+*Project* *manager* is focused on delivering the product in a timely manner
+
+In today's teams, product manager and the lead engineer often play the role as the project manager
 
 * The Product Cycle
 
-* Product Development
+* The Lean Startup by Eric Ries
 
-TBD
+Book that introduced the scientific approach to building startups
 
-* User Research & User Experience
+.image images/the_lean_startup_book.jpg
+
+* Product Development: 10,000 feet Overview
+
+.image images/lean_startup_methodology.jpg
+
+Source: http://theleanstartup.com/principles
+
+* Using the Scientific Method for Product Development
+
+.image images/scientific_method.png
+
+Source: https://www.alexandercowan.com/creating-a-lean-startup-style-assumption-set/
+
+* New Product Development Funnel
+
+.image images/product_development_funnel.png
+
+Source: https://www.researchgate.net/figure/Innovation-Funnel-Source-wwwsopheoncom-idea-concept-development_fig3_282909259
+
+* Product Process in More Detail
+
+* User Research & Usability Testing
+
+.image images/usability_testing.jpg
+
+Source: https://launchdarkly.com/blog/the-new-way-to-conduct-real-time-user-research/
+
+* How to do Usability Testing?
 
 TBD
 
@@ -48,19 +85,45 @@ TBD
 
 TBD
 
-* Requirements: A Quick Laugh
+* User Experience
 
-* Ordering a Cake
+* 7 Factors of User Experience
 
-TBD
+1. Useful - the product solves a problem for the user
+2. Usable - the product makes it easy for a user to achieve a goal
+3. Findable - features and content are findable in the product
+4. Credible - the product is credible, highly adopted, and likely be around indefinitely
+5. Desirable - the product builds identity and desirable eg. porsche vs skoda
+6. Accessible - the product is easy accessible to people with disabilities
+7. Valuable - the product delivers business value
 
-* XKCD Picture with different swings
+* Requirements: What not to do
 
-TBD
+* A Cake Story
 
-* The Ephiphany
+_Customer_: Hello, I’d like to order a cake.
 
-TBD
+_Employee_: Sure, what would you like written on it?
+
+_Customer_: Could you write “So long, Alicia” in purple?
+
+_Employee_: Sure.
+
+_Customer_: And put stars around it?
+
+_Employee_: No problem. I’ve written this up, and will hand it to my cake decorator right away. We’ll have it for you in the morning.
+
+* A Cake Story Cont'd
+
+.image images/requirements_comic_1.jpg
+
+Source: User Story Mapping by Jeff Paton and Peter Economy
+
+* Developing a Swing
+
+.image images/requirements_comic_2.jpg
+
+Source: http://stevedempsen.blogspot.com/2013/08/agile-software-requirements-comic.html
 
 * Requirements Breakdown
 
@@ -73,10 +136,6 @@ TBD
 TBD
 
 * Estimation: Story Points
-
-TBD
-
-* Bonus: The Lean Startup
 
 TBD
 
