@@ -219,18 +219,85 @@ Source: http://stevedempsen.blogspot.com/2013/08/agile-software-requirements-com
 
 * Requirements Breakdown
 
-* What are User Stories?
+* Ticket Breakdown
 
-TBD
+In order or _largest_ to _smallest_
 
-* How to write a good user story?
+- Epics - large groups of user stories that comprise of a larger feature implementation that often spans multiple iterations
+- Spikes - a story that can not be estimated until some investigation is done
+- Stories - non-technical software requirement in the perspective of a user
+- Tasks - break down of a list of things that need to be completed for a story; subtasks
+- Bugs - when the software doesn't function as intended
 
-TBD
+* User Stories in More Detail
+
+User stories are short descriptions of a feature in the perspective of the person that benefits from the feature
+
+They are made to be simple to facilitate discussion. If it were too descriptive, it would prescribe how the implementation may be done.
+
+Since they are often written by product managers, we don't want them to prescribe the technical implementation since they are not the experts.
+
+*Format*:
+
+_As_of_<user_persona>,_I_want_<goal>_so_that_<reason>._
+
+* Sample Requirement for An Ecommerce Application
+
+*Epic*: As a customer, I want to be able to buy a product
+
+*User*Stories*:
+
+- As a customer, I want to be able to see the product listing so that I can choose from a list of products to purchase
+- As a customer, I want to be able to add a product to my cart so that I can check out later
+- As a customer, I want to be able to checkout to complete my order
+
+* Acceptance Criteria
+
+Criteria that the implementation must satisfy in order to be _accepted_ by the product owner.
+
+In other words, its the definition of done after a discussion among the team about what the story entails. The definition of done spans the acceptance criteria and additional details that affect the implementation.
+
+*Example*:
+
+    As a customer, I want to be able to see the product listing 
+    so that I can choose from a list of products to purchase
+
+    Details:
+    - Only list products that are in stock
+    - Only list the products that are available to be shipped to the customer's location
+
+    Acceptance Criteria:
+    - The customer can reach a page that list all the products that the company offers
+    - The customer can click into one of the products to see more details of the product
 
 * Estimation: Story Points
 
-TBD
+Story points are an abstraction over time. They are often better because a team may have other obligations other than delivering software on time.
+
+Time and dates put engineers at a disadvantage because
+
+- There are tasks like meetings, interviews, emails, etc that a team member may have
+- Deadlines and time has an emotional attachment and may push developers to work overtime
+- Story points are relative to teams so team comparisons are discouraged
+- Story points remove the much needed debate between members getting too specific on time
+- Story points focuses on level of effort and value delivered rather than time spent delivering aligning with the business rather than the act of just shipping something
+
+* Estimation: How does story points work?
+
+All team members participate in estimating every story
+
+- The team has full transparency on what they're committing to
+- Team members can discuss the requirements and what goes into the story to define the level of effort
+- Morale decreases if team members are excluded
+- The team owns the backlog and the opportunities it presents
 
 * Summary
 
-TBD
+- Product Manager roles focuses more on business value while project manager focuses on execution and delivery
+- The Lean Startup is a methodology of using the scientific method to create a valuable product
+- A minimal viable product is a product that has a minimal feature set that produces value and can be iterated on
+- Focus on developing low fidelity wireframes to test user workflows to limit the amount of investment into building a user experience that doesn't work
+- Leverage user research and usability testing techniques to fine tune your audience experience
+- B2B products differ from B2C products as they have have an commercialization life cycle the company will be expected to provide support
+- Different types of tickets can help you organize your product feature development
+- User stories help guide discussions for implementing features in the user's perspective
