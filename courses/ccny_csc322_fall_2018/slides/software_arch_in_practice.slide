@@ -1,0 +1,96 @@
+Software Architecture in Practice
+Designing the foundations of the application
+
+William Chan
+Lead Platform Engineer, 605.tv, Capital One, FreeWheel (Comcast)
+http://linkedin.com/in/wchan2
+
+* Objectives
+
+- Learn what software architecture is
+- Learn how to introduce software architecture to projects to keep the team aligned
+- Learn what are the important elements of software architecture
+
+* What is Architecture?
+
+Plan for constructing a building
+
+* What is Software Architecture?
+
+Plan for implementing software applications
+
+* Software Architecture Principles
+
+- Language that helps team communicate better with the same terminology
+- Structure for the application to align the team to implement features on the application
+
+* Software Architecture Concepts
+
+1. Separation of concerns - the right components to divide the abstractions
+2. Principle of least knowledge - the less knowledge an object have another object decreases coupling
+3. DRY - don't repeat yourself, if something is repeated; caveat: be sure to make sure its also within the same domain
+
+* Software Architecture Measurement
+
+- Encapsulation - helps decrease the amount of coupling between each component by information hiding
+- Polymorphism - helps increase the cohesion of communication and relationship between objects
+
+* Design Patterns
+
+1. Creational patterns - patterns that determine how objects are created
+2. Structural patterns - patterns that define relationships between objects
+3. Behavioral patterns - patterns that define the communication between objects
+
+* SOLID Principles
+
+1. Single responsibility principle
+2. Open-closed principle
+3. Liskov substution principle
+4. Interface segregation principle
+5. Dependency inversion principle
+
+* Class Responsibilities
+
+Sample responsibilities that a class can have
+
+- Persistence - the process of saving data
+- Validation - the process of validation data
+- Error handling - handling errors gracefully or surfacing them
+- Logging - runtime context of the application
+- Class instantiation - creational design patterns
+- Formatting - displaying relevant data
+- Parsing - extracting information from data
+- Mapping - translating data from one definition to another
+
+* Sample Architectures
+
+* Layered Architecture
+
+TBD
+
+* The Process of Defining an Architecture
+
+* Understanding the Software Architecture Procedures
+
+1. Understand - learn about the people and the process
+2. Explore - explore the combination of components
+3. Make - build prototypes and write documents
+4. Evaluate - treat solutions as experiments and examine the risks
+
+* Releasing Software
+
+* Deployments
+
+TBD
+
+* Logging
+
+TBD
+
+* Monitoring
+
+TBD
+
+* Summary
+
+TBD
