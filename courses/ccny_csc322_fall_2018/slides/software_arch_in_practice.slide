@@ -10,6 +10,7 @@ http://linkedin.com/in/wchan2
 - Learn what software architecture is
 - Learn how to introduce software architecture to projects to keep the team aligned
 - Learn what are the important elements of software architecture
+- Review of design patterns
 
 * What is Architecture?
 
@@ -30,10 +31,32 @@ Plan for implementing software applications
 2. Principle of least knowledge - the less knowledge an object have another object decreases coupling
 3. DRY - don't repeat yourself, if something is repeated; caveat: be sure to make sure its also within the same domain
 
-* Software Architecture Measurement
+* General Software Abstractions & Relations
 
 - Encapsulation - helps decrease the amount of coupling between each component by information hiding
 - Polymorphism - helps increase the cohesion of communication and relationship between objects
+- Dependencies - dependent libraries and packages
+
+* Types of Coupling
+
+- Afferent coupling - number of responsibilities; incoming
+- Efferent coupling - number of dependencies; outgoing
+
+* Code Quality Measurements
+
+- Instability - ratio of efferent coupling to afferent and efferent coupling
+- Cyclomatic complexity - number of branches that a method may have, measures the complexity of methods
+
+* Cyclomatic Complexity
+
+_E_-_N_+_2_*_P_
+
+where
+- E is the number of edges
+- N is the number of nodes
+- P is the number of nodes with exit paths
+
+* Principles & Patterns
 
 * Design Patterns
 
@@ -41,13 +64,50 @@ Plan for implementing software applications
 2. Structural patterns - patterns that define relationships between objects
 3. Behavioral patterns - patterns that define the communication between objects
 
+* Creational Design Patterns
+
+- Abstract factory - request an object from a factory object
+- Factory method - choosing an object implementation, creating the object and returning it
+- Builder - builds complex objects that may have different representations
+- Dependency injection - request an object from an injector
+- Lazy initialization - create an object only when its needed
+- Object pool - avoid expensive object creation and release of resources by recycling objects that are not in use
+- Prototype - cloning an object to create a new instance
+- Singleton - restrict instantiation from creating more than one object
+
+* Structural Design Patterns
+
+- Adapter - adapts one interface to another
+- Bridge - separating an interface from its implementation
+- Composite - structure of different objects
+- Decorator - adds additional functionality to its interface
+- Facade - masks complex structural code eg. using many objects and executes different methods
+- Flyweight - caching and storing objects with the same "value"
+- Private class data - restrict accessor and mutator methods to access
+- Proxy - connects two other components and may add more functionality
+
+* Behavioral Design Patterns
+
+- Chain of responsibility - passes a request through a chain of objects
+- Command - encapsulate information to trigger an event or action
+- Interpreter - evaluation of grammatical representation
+- Iterator - a way to access each element of a collection
+- Mediator - coordinates between different objects
+- Memento - restores an object to its previous state
+- Null object - acts as the default value of a class
+- Observer - a way of notifying other objects of an object's state change
+- State - when an internal state changes, the object's behavior changes
+- Strategy - determines the algorithm that should be used for the implementation
+- Template method - skeleton of an algorithm as an abstract class that allow subclasses to determine the behavior
+- Visitor - separates the algorithm from the object it operates
+
 * SOLID Principles
 
-1. Single responsibility principle
-2. Open-closed principle
-3. Liskov substution principle
-4. Interface segregation principle
-5. Dependency inversion principle
+1. Single responsibility principle - a class should only have one reason to change
+2. Open-closed principle - classes should be open for extension but closed for modification
+3. Liskov substution principle - objects should be replaceable by instances of their subtypes without altering the program
+4. Interface segregation principle - no client should be forced to depend on methods, it doesn't use
+5. Dependency inversion principle - modules should be dependent on abstractions and not details
 
 * Class Responsibilities
 
@@ -64,7 +124,23 @@ Sample responsibilities that a class can have
 
 * Sample Architectures
 
+* Model-View-Controller (MVC)
+
+TBD
+
 * Layered Architecture
+
+TBD
+
+* Clean Architecture
+
+TBD
+
+* Plugin Architecture
+
+TBD
+
+* Domain Driven Design
 
 TBD
 
@@ -77,19 +153,40 @@ TBD
 3. Make - build prototypes and write documents
 4. Evaluate - treat solutions as experiments and examine the risks
 
+* TBD
+
+TBD
+
 * Releasing Software
 
 * Deployments
 
-TBD
+1. Configuration management to set up your servers
+2. Virtual environments that servers can be deployed to
+3. Containerization to isolate host dependencies from application dependencies
 
 * Logging
 
-TBD
+Logging helps debug the application when something goes wrong
+
+*Log* *Levels*:
+- Debug - granular diagnostic information for developers
+- Info - information relevant to support staff to help figure out an error
+- Warn - there might be a problem that warrants attention
+- Error - log an error that has occurred
+- Fatal - something critical happened that you have to halt your application
 
 * Monitoring
 
-TBD
+- Monitor the host such as CPU utilization, memory utilization, disk availability
+- Monitor request traffic
+- Monitor the amount of errors
+- Monitor response times
+
+* Maintaining Software
+
+- Technical debt - prioritize to see where technical debt is and refactor
+- Making software debuggable - low coupling and logs help debug unintended behavior
 
 * Summary
 
