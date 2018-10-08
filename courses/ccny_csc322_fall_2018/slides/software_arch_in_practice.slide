@@ -182,13 +182,22 @@ Source: https://www.safaribooksonline.com/library/view/software-architecture-wit
 
 * Domain Driven Design Objects
 
-- Entity
-- Value Objects
-- Domain Event
-- Aggregate
-- Service
-- Repositories
-- Factories
+- Entity - objects with distinct identities and has a lifecycle
+- Value Objects - immutable objects that has value but has no unique identity
+- Domain Event - a record of something that happened in the software, can be used to publish to components that are interested
+- Aggregate - cluster of objects that can be related and treated as a single unit
+- Service - business logic operations that are stateless
+- Repositories - deals with the entities and value objects lifecycle
+- Factories - encapsulates creation of complex entities, aggregates and value objects
+
+* Functional Programming
+
+Functional programming stresses the importance on mutability and therefore is natural fit for parallel and concurrent programming
+
+Because state is often not kept in functions
+- it has one less complexity to debug against, as you can always regenerate that state
+- race conditions are kept to a minimal
+- are great for pipeline architectures
 
 * The Process of Defining an Architecture
 
