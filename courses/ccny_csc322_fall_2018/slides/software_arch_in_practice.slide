@@ -208,9 +208,23 @@ Because state is often not kept in functions
 3. Make - build prototypes and write documents
 4. Evaluate - treat solutions as experiments and examine the risks
 
-* TBD
+* Software Architecture Quality Attributes
 
-TBD
+- Security - what security measures do we need?
+- Privacy - what do we have to do to protect the information of our users?
+- Portability - how deployable it is to our servers?
+- Extensibility - how quickly can a module be added?
+- Reliability - what is the expected uptime of the system?
+- Performance - how quickly does our service need to respond to requests?
+- Compatibility - what does our architecture have to be compatible with?
+
+*Note*: _This_is_not_a_complete_list_of_all_architecture_qualities,_there_are_more._
+
+* Trade-offs
+
+Quality attributes are often at odds with each other so there are often trade-offs that need to be made
+
+For example, if something is expected to be highly reliable, it may sacrifice performance because you need to store data in redundant locations
 
 * Releasing Software
 
