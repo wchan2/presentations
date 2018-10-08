@@ -12,11 +12,13 @@ http://linkedin.com/in/wchan2
 - Learn what are the important elements of software architecture
 - Review of design patterns
 
-* What is Architecture?
+* What is Software Architecture?
+
+*Architecture*
 
 Plan for constructing a building
 
-* What is Software Architecture?
+*Software* *Architecture*
 
 Plan for implementing software applications
 
@@ -98,6 +100,9 @@ where
 - Observer - a way of notifying other objects of an object's state change
 - State - when an internal state changes, the object's behavior changes
 - Strategy - determines the algorithm that should be used for the implementation
+
+* Behavioral Design Patterns Cont'd
+
 - Template method - skeleton of an algorithm as an abstract class that allow subclasses to determine the behavior
 - Visitor - separates the algorithm from the object it operates
 
@@ -122,27 +127,68 @@ Sample responsibilities that a class can have
 - Parsing - extracting information from data
 - Mapping - translating data from one definition to another
 
-* Sample Architectures
-
-* Model-View-Controller (MVC)
-
-TBD
+* Architectures Classifications
 
 * Layered Architecture
 
-TBD
+Components are organized into horizontal layers
 
-* Clean Architecture
+An example of a layered architecture is the MVC architecture
 
-TBD
+* Layered Architecture Diagram Example
+
+.image images/layered_architecture.png
+
+Source: https://www.safaribooksonline.com/library/view/software-architecture-patterns/9781491971437/ch01.html
+
+* Model-View-Controller (MVC)
+
+A way to build applications with a user interface
+
+- Model - represents how data is persisted
+- View - the presentational layer that the end user sees
+- Controller - the mediator between the model and the view
 
 * Plugin Architecture
 
-TBD
+Components are organized as plugins where you can use different components in an extensible and reusable way
+
+* Plugin Architecture Diagram Example
+
+.image images/plugin_architecture.png
+
+Source: https://www.safaribooksonline.com/library/view/software-architecture-patterns/9781491971437/ch03.html#idp1081312
+
+* Pipes and Filters Architecture
+
+The main components of this architecture are pipes and filters, particularly with processing data
+
+- Pipe - data flows from point to point
+- Filters - transformations or filters that mutates the data that feeds into other pipes or sinks
+- Sinks - where the data ultimately will be stored after a series of transformations
+
+* Pipes and Filters Architecture Diagram Example
+
+.image images/pipeline_architecture.jpg
+
+Source: https://www.safaribooksonline.com/library/view/software-architecture-with/9781786468529/ch08s04.html
+
+* Mental Model for Applications
 
 * Domain Driven Design
 
-TBD
+- Helps classify components into logical categories to orchestrate certain behaviors
+- Works well with modeling business applications
+
+* Domain Driven Design Objects
+
+- Entity
+- Value Objects
+- Domain Event
+- Aggregate
+- Service
+- Repositories
+- Factories
 
 * The Process of Defining an Architecture
 
@@ -190,4 +236,6 @@ Logging helps debug the application when something goes wrong
 
 * Summary
 
-TBD
+- Software architecture organizes your application into logical categories to make them easier to navigate to add features, fix bugs, etc
+- Software architecture is about trade-offs and choosing some quality attributes over others
+- Software architecture and development is always an ongoing process. As more features are added, the structure of the architecture may change
