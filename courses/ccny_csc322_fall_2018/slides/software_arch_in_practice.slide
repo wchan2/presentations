@@ -201,12 +201,12 @@ Because state is often not kept in functions
 
 * The Process of Defining an Architecture
 
-* Understanding the Software Architecture Procedures
+* Understanding the Software Architecture Concerns
 
-1. Understand - learn about the people and the process
-2. Explore - explore the combination of components
-3. Make - build prototypes and write documents
-4. Evaluate - treat solutions as experiments and examine the risks
+1. What are the components in the system, the interactions, and the relationships?
+2. How do the components model after the business or domain that you're building for?
+3. What are some technologies or frameworks that promote the architecture attributes?
+4. How will you operate and deploy the software?
 
 * Software Architecture Quality Attributes
 
@@ -217,8 +217,17 @@ Because state is often not kept in functions
 - Reliability - what is the expected uptime of the system?
 - Performance - how quickly does our service need to respond to requests?
 - Compatibility - what does our architecture have to be compatible with?
+- Supportability - how supportable is the application?
 
 *Note*: _This_is_not_a_complete_list_of_all_architecture_qualities,_there_are_more._
+
+* Quality Attributes are Determined by Stakeholders
+
+Gathering your top most quality attributes
+
+- Stakeholders - find out what is important to them
+- Business goals - what quality attributes are required to satisfy the business goals
+- Constraints - is there an architecture in place that is difficult to navigate
 
 * Trade-offs
 
@@ -262,3 +271,4 @@ Logging helps debug the application when something goes wrong
 - Software architecture organizes your application into logical categories to make them easier to navigate to add features, fix bugs, etc
 - Software architecture is about trade-offs and choosing some quality attributes over others
 - Software architecture and development is always an ongoing process. As more features are added, the structure of the architecture may change
+- Remember find a balance between user stories and quality attributes in your software architecture!
