@@ -71,8 +71,8 @@ A grading sheet will be handed out during class before presentations and will be
 | 9/26/2018 | Software Development Methodologies | [Download](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/software_dev_methodologies.pdf) |  |
 | 10/3/2018 | Product Development & Requirements Gathering | [Download](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/product_dev_and_requirements.pdf) |  |
 | 10/10/2018 | Software Architecture in Practice | [Download](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/software_arch_in_practice.pdf) |  |
-| 10/17/2018 | Software Development Process Midterm |  | [Requirements](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/requirements.md) |
-| 10/24/2018 | UML Diagramming: Use Case Diagram | TBD |  |
+| 10/17/2018 | Software Development Process Midterm |  |  |
+| 10/24/2018 | UML Diagramming: Use Case Diagram | TBD | [Requirements](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/requirements.md) |
 | 10/31/2018 | UML Diagramming: Sequence Diagram | TBD |  |
 | 11/7/2018 | UML Diagramming: Class Diagram | TBD |  |
 | 11/14/2018 | UML Diagramming Midterm |  | [UML](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/uml.md) |
