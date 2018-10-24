@@ -1,0 +1,23 @@
+@startuml
+left to right direction
+
+actor customer
+rectangle purchasing_an_item {
+    customer --> (add_item_to_cart)
+    (add_item_to_cart) --> (checkout)
+    (checkout) --> (enter_address)
+    (enter_address) --> (add_billing_info)
+    (add_billing_info) --> (confirm_order)
+}
+
+newpage
+left to right direction
+
+actor fulfillment_staff
+rectangle shipping_an_item {
+    fulfillment_staff --> (receive_order)
+    (receive_order) --> (locate_item)
+    (locate_item) --> (package_with_shipping_label)
+    (package_with_shipping_label) --> (ship)
+}
+@enduml

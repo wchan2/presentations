@@ -1,0 +1,83 @@
+UML: Use Case Diagrams
+Diagramming your application use cases
+
+William Chan
+Lead Platform Engineer, 605.tv, Capital One, FreeWheel (Comcast)
+http://linkedin.com/in/wchan2
+
+* Objectives
+
+- Learn how to map application features to use case diagrams
+- Learn what components are in a use case diagram
+
+* What are UML Diagrams?
+
+UML stands for *Unified* *Modeling* *Language*.
+
+UML helps developers visualize the the system's architecture, understand high level components and application features
+
+* Different Types of UML Diagrams
+
+- Use case diagrams - documents how a user may use your application
+- Component diagrams - documents the components of larger elements and how they interact with each other
+- Activity diagrams - documents the flow of the application; ie. implementation details
+- Sequence diagrams - documents the steps your application
+- Class diagrams - documents the blueprint of your classes
+- State diagrams - documents change of state of a component
+- Object diagrams - documents the objects in relation to other objects
+- Deployment diagrams - documents the operations and deployments of the software
+- Timing diagrams - documents the time certain events happen in different components
+
+* What will we focus on?
+
+- Use case diagrams
+- Sequence diagrams
+- Class diagrams
+
+* Use Case Diagrams
+
+Use case diagrams help depict different use cases and interactions for which people use an application.
+
+* Use Case Diagram components
+
+- Actors - users of the application
+- Extensions - relationship between an actor and another actor or use case
+- Stereotypes - categorizing your users
+- Notes - additional information for the relationship and interactions
+
+Note: _Terminology_is_taken_from_the_PlantUML_language_
+
+* Tools for Diagramming
+
+*Languages* *that* *generate* *diagrams*
+- PlantUML
+- yUML
+- Mermaid
+
+*Visual* *Tools*
+
+- Microsoft Visio
+- Lucidchart
+- Google Draw
+
+* PlantUML: A UML Tool
+
+- Is a diagrammming language that generates visualizations
+- Can easily be version controlled
+
+Installation: http://plantuml.com/faq-install
+Documentation: http://plantuml.com/use-case-diagram
+
+* UML Example: E-commerce Diagrams
+
+.image images/uml_use_case_code_example-page1.png
+.image images/uml_use_case_code_example-page2.png
+
+* UML Example: E-commerce Diagram PlantUML Code
+
+.code code/uml_use_case_code_example.wsd
+
+* Summary
+
+- Use case diagrams are used to visualize and document the application features from a high level
+- PlantUML is a modeling language that allows you to version your visualizations
