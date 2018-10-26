@@ -1,0 +1,86 @@
+UML: Sequence Diagram
+Diagramming your application steps
+
+William Chan
+Lead Platform Engineer, 605.tv, Capital One, FreeWheel (Comcast)
+http://linkedin.com/in/wchan2
+
+* Objectives
+
+- Learn how to application interactions in a sequence diagram
+- Learn what components are in a sequence diagram
+
+* UML Sequence Diagrams
+
+Lays out the different interactions of some major components in the application
+
+* Use Case Diagram components
+
+- Participants - components and actors in your application
+- Actors - a specific type of participant but is a user normally
+- Database - another specific type of participant
+- Divider - used to group sections of similar functionality together
+- Lifelines - when a participant is activated to depict state
+- Boxes - used to logical grouping of components
+
+Note: _Terminology_is_taken_from_the_PlantUML_language_
+
+* PlantUML Sequence Diagram Documentation
+
+Documentation: http://plantuml.com/sequence-diagram
+
+* Diagram Tutorial
+
+* Simple Sequence Diagram Example
+
+.image images/uml_simple_sequence_example.png
+
+* Simple Sequence Diagram Code
+
+.code code/uml_simple_sequence_example.wsd
+
+* Using Dividers
+
+* Sequence Diagram Dividers Example
+
+.image images/uml_sequence_dividers_example.png
+
+* Sequence Diagram Dividers Code
+
+.code code/uml_sequence_dividers_example.wsd
+
+* Using Boxes
+
+* Sequence Diagram Box Example
+
+.image images/uml_sequence_box_example.png
+
+* Sequence Diagram Box Code
+
+.code code/uml_sequence_box_example.wsd
+
+* Using Lifelines for State
+
+* Sequence Diagram Lifeline Example
+
+.image images/uml_sequence_lifeline_example.png
+
+* Sequence Diagram Lifeline Code
+
+.image code/uml_sequence_lifeline_code.wsd
+
+* A Complete Example
+
+* UML Example: E-commerce Diagrams
+
+.image images/uml_sequence_code_example.png
+
+* UML Example: E-commerce Diagram PlantUML Code
+
+.link https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/code/uml_sequence_code_example.wsd Source code
+
+.code code/uml_sequence_code_example.wsd
+
+* Summary
+
+- Sequence diagrams help you visualize the workflow and high level implementation of how components work with each other
