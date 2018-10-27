@@ -1,0 +1,10 @@
+@startuml
+hide footbox
+
+actor User 
+participant "Web Application"
+
+User -> "Web Application" : Authentication Request
+"Web Application" --> User : Authenticated
+
+@enduml

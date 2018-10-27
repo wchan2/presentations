@@ -1,5 +1,4 @@
 @startuml
-skinparam color monochrome
 hide footbox
 
 actor User
