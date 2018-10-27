@@ -73,7 +73,7 @@ A grading sheet will be handed out during class before presentations and will be
 | 10/10/2018 | Software Architecture in Practice | [Download](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/software_arch_in_practice.pdf) |  |
 | 10/17/2018 | Software Development Process Midterm |  |  |
 | 10/24/2018 | UML Diagramming: Use Case Diagram | [Download](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/uml_use_case_diagram.pdf) | [Requirements](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/requirements.md) |
-| 10/31/2018 | UML Diagramming: Sequence Diagram | TBD |  |
+| 10/31/2018 | UML Diagramming: Sequence Diagram | [Download](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/uml_sequence_diagram.pdf) |  |
 | 11/7/2018 | UML Diagramming: Class Diagram | TBD |  |
 | 11/14/2018 | UML Diagramming Midterm |  |  |
 | 11/21/2018 | Software Testing: Unit Testing and Acceptance Testing | TBD | [UML](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/uml.md) |
