@@ -67,9 +67,9 @@ Documentation: http://plantuml.com/sequence-diagram
 
 * Sequence Diagram Lifeline Code
 
-.image code/uml_sequence_lifeline_code.wsd
+.code code/uml_sequence_lifeline_example.wsd
 
-* A Complete Example
+* A More Complete Example
 
 * UML Example: E-commerce Diagrams
 

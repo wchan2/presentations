@@ -11,22 +11,23 @@ User -> "E-commerce Application" : Sends username and password to log in
 "E-commerce Application" -> "E-commerce Database" : Matches username and password
 "E-commerce Database" --> "E-commerce Application" : Sends back a matched record
 
-activate "E-commerce Application"
+activate "E-commerce Application" #FFBBBB
 "E-commerce Application" --> User : Sends back user session
 
 == User Adds Product to Card ==
 User -> "E-commerce Application" : Adds products to cart
+activate "E-commerce Application" #DarkSalmon
 "E-commerce Application" -> "E-commerce Database" : Build relationship between a cart with the products
 "E-commerce Database" --> "E-commerce Application" : Responds that rows for the products are added to the cart
 "E-commerce Application" --> User : Shows the user the cart page
 
 == User Purchases Items ==
 User -> "E-commerce Application" : Checks out to purchase the items in the cart
+deactivate "E-commerce Application"
 
 == User Logs Out ==
 User -> "E-commerce Application" : Logs out of the application
 "E-commerce Application" -> "E-commerce Database" : Expires the user session stored in the database
 destroy "E-commerce Application"
-
 
 @enduml

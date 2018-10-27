@@ -1,0 +1,13 @@
+@startuml
+hide footbox
+
+actor User
+participant "Web Service"
+
+User -> "Web Service" : Requests authentication
+activate "Web Service"
+"Web Service" --> User : Authenticated
+User -> "Web Service" : Logs out
+destroy "Web Service"
+
+@enduml
