@@ -1,0 +1,12 @@
+@startuml
+hide footbox
+
+actor User
+
+box "Back End Services"
+    participant "Web Application"
+
+User -> "Web Application" : Request Authentication
+"Web Application" --> User : Authenticated
+
+@enduml
