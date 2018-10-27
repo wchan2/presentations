@@ -1,0 +1,20 @@
+@startuml
+hide footbox
+
+actor User 
+participant "Web Application"
+
+== Authentication ==
+User -> "Web Application" : Authentication Request
+"Web Application" --> User : Authenticated
+
+== Edit Profile Page ==
+User -> "Web Application" : Visit Profile Page
+User -> "Web Application" : Change name on profile page
+"Web Application" --> User : Replies with a successful edit
+
+== User Log out ==
+User -> "Web Application" : Logs out of the page
+"Web Application" --> User : Successfully logged out
+
+@enduml
