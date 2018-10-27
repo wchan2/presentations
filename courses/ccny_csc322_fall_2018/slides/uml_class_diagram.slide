@@ -1,0 +1,79 @@
+UML: Class Diagram
+Diagramming your application classes
+
+William Chan
+Lead Platform Engineer, 605.tv, Capital One, FreeWheel (Comcast)
+http://linkedin.com/in/wchan2
+
+* Objectives
+
+- Learn how to sketch your application components in a class diagram
+- Learn what components are in a class diagram
+
+* UML Diagram Diagrams
+
+Lays out the sketches of classes, namely the follow
+
+- *Public*, *private* and *protected* instance variables
+- *Public*, *private* and *protected* instance methods
+- The relationships of different classes
+
+* Use Case Diagram components
+
+*Components*
+
+- Packages - logical grouping of different classes that carry a common behavior
+- Classes - classes that produces logical units of objects
+
+*Relations*
+
+- Extension - a class inherits from another class
+- Composition - a class is composed of an object of another class
+
+Note: _Terminology_is_taken_from_the_PlantUML_language_
+
+* PlantUML Class Diagram Documentation
+
+Documentation: http://plantuml.com/class-diagram
+
+* Diagram Tutorial
+
+* Class Example
+
+.image images/uml_simple_class_example.png
+
+* Class Code
+
+.code code/uml_simple_class_example.wsd
+
+* Class Relations
+
+* Class Inheritance Example
+
+.image images/uml_class_inheritance_example.png
+
+* Class Inheritance Code
+
+.code code/uml_class_inheritance_example.wsd
+
+* Class Composition Example
+
+.image images/uml_class_composition_example.png
+
+* Class Composition Code
+
+.code code/uml_class_composition_example.wsd
+
+* A More Complete Example
+
+* UML Example: E-commerce Diagrams
+
+.image images/uml_class_diagram_code_example.png
+
+* UML Example: E-commerce Diagram PlantUML Code
+
+.code code/uml_class_diagram_code_example.wsd
+
+* Summary
+
+- Class diagrams help you visualize the components that make up your application
