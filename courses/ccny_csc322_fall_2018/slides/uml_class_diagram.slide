@@ -46,6 +46,10 @@ Documentation: http://plantuml.com/class-diagram
 
 .code code/uml_simple_class_example.wsd
 
+* Modifiers Legend
+
+.image images/modifiers_legend.png
+
 * Abstract Classes and Interfaces
 
 * Abstract Class Example
