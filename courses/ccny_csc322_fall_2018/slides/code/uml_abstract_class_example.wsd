@@ -1,0 +1,9 @@
+@startuml
+abstract class AbstractClass {
+    + String publicData
+    - String privateData
+    # String protectedData
+
+    + {abstract} void abstractMethod()
+}
+@enduml

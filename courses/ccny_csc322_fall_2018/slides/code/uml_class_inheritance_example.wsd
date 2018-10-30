@@ -1,0 +1,16 @@
+@startuml
+class Mammal {
+    + void greet()
+}
+
+class Cat {
+    + void greet()
+}
+
+class Dog {
+    + void greet()
+}
+
+Cat <|-- Mammal
+Dog <|-- Mammal
+@enduml

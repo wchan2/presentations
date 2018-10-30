@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://localhost:3999/uml_class_diagram.slide#14 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>UML: Class Diagram</title>
+    
+    <script>
+      var notesEnabled =  false ;
+    </script>
+    <script src="./uml_class_diagram_files/slides.js"></script>
+
+    
+
+    <script>
+      
+      if (window["location"] && window["location"]["hostname"] == "talks.golang.org") {
+        var _gaq = _gaq || [];
+        _gaq.push(["_setAccount", "UA-11222381-6"]);
+        _gaq.push(["b._setAccount", "UA-49880327-6"]);
+        window.trackPageview = function() {
+          _gaq.push(["_trackPageview", location.pathname+location.hash]);
+          _gaq.push(["b._trackPageview", location.pathname+location.hash]);
+        };
+        window.trackPageview();
+        window.trackEvent = function(category, action, opt_label, opt_value, opt_noninteraction) {
+          _gaq.push(["_trackEvent", category, action, opt_label, opt_value, opt_noninteraction]);
+          _gaq.push(["b._trackEvent", category, action, opt_label, opt_value, opt_noninteraction]);
+        };
+      }
+    </script>
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1"><meta name="apple-mobile-web-app-capable" content="yes"></head>
+
+  <body style="display: none" class="loaded">
+
+    <section class="slides layout-widescreen" style="transform: scale(0.957333);">
+
+      <article>
+        <h1>UML: Class Diagram</h1>
+        <h3>Diagramming your application classes</h3>
+        
+        
+          <div class="presenter">
+            
+  
+  <p>
+    William Chan
+  </p>
+  
+
+  
+  <p>
+    Lead Platform Engineer, 605.tv, Capital One, FreeWheel (Comcast)
+  </p>
+  
+
+          </div>
+        
+      </article>
+
+  
+  
+      <article>
+      
+        <h3>Objectives</h3>
+        
+  <ul>
+  
+    <li>Learn how to sketch your application components in a class diagram</li>
+  
+    <li>Learn what components are in a class diagram</li>
+  
+  </ul>
+
+      
+      <span class="pagenumber">2</span>
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>UML Diagram Diagrams</h3>
+        
+  
+  <p>
+    Lays out the sketches of classes, namely the follow
+  </p>
+  
+
+  <ul>
+  
+    <li><b>Public</b>, <b>private</b> and <b>protected</b> instance variables</li>
+  
+    <li><b>Public</b>, <b>private</b> and <b>protected</b> instance methods</li>
+  
+    <li>The relationships of different classes</li>
+  
+  </ul>
+
+      
+      <span class="pagenumber">3</span>
+      </article>
+  
+  
+  
+      <article class="">
+      
+        <h3>Use Case Diagram components</h3>
+        
+  
+  <p>
+    <b>Components</b>
+  </p>
+  
+
+  <ul>
+  
+    <li>Packages - logical grouping of different classes that carry a common behavior</li>
+  
+    <li>Classes - classes that produces logical units of objects</li>
+  
+  </ul>
+
+  
+  <p>
+    <b>Relations</b>
+  </p>
+  
+
+  <ul>
+  
+    <li>Extension - a class inherits from another class</li>
+  
+    <li>Composition - a class is composed of an object of another class</li>
+  
+  </ul>
+
+  
+  <p>
+    Note: <i>Terminology is taken from the PlantUML language</i>
+  </p>
+  
+
+      
+      <span class="pagenumber">4</span>
+      </article>
+  
+  
+  
+      <article class="">
+      
+        <h3>PlantUML Class Diagram Documentation</h3>
+        
+  
+  <p>
+    Documentation: http://plantuml.com/class-diagram
+  </p>
+  
+
+      
+      <span class="pagenumber">5</span>
+      </article>
+  
+  
+  
+      <article class="">
+      
+        <h2>Diagram Tutorial</h2>
+      
+      <span class="pagenumber">6</span>
+      </article>
+  
+  
+  
+      <article class="">
+      
+        <h3>Simple Class Example</h3>
+        
+<div class="image">
+  <img src="./uml_class_diagram_files/uml_simple_class_example.png">
+</div>
+
+      
+      <span class="pagenumber">7</span>
+      </article>
+  
+  
+  
+      <article class="">
+      
+        <h3>Simple Class Code</h3>
+        
+  <div class="code">
+
+
+<pre><span num="1">@startuml</span>
+<span num="2">class SimpleClass {</span>
+<span num="3">    + {static} String publicStaticVariable</span>
+<span num="4">    - {static} String privateStaticVariable</span>
+<span num="5">    # {static} String protectedStaticVariable</span>
+<span num="6"></span>
+<span num="7">    + String publicData</span>
+<span num="8">    - String privateData</span>
+<span num="9">    # String protectedData</span>
+<span num="10"></span>
+<span num="11">    + void : publicMethod()</span>
+<span num="12">    - void : privateMethod()</span>
+<span num="13">    # void : protectedMethod()</span>
+<span num="14">}</span>
+<span num="15">@enduml</span>
+</pre>
+
+
+</div>
+
+      
+      <span class="pagenumber">8</span>
+      </article>
+  
+  
+  
+      <article class="">
+      
+        <h2>Abstract Classes and Interfaces</h2>
+      
+      <span class="pagenumber">9</span>
+      </article>
+  
+  
+  
+      <article class="">
+      
+        <h3>Abstract Class Example</h3>
+        
+  
+  <p>
+    An abstract class is a class with one of more abstract methods, methods without implementation where a class that extends it should implement the abstract method.
+  </p>
+  
+
+  
+  <p>
+    Note: objects can not be created from abstract classes
+  </p>
+  
+
+<div class="image">
+  <img src="./uml_class_diagram_files/uml_abstract_class_example.png">
+</div>
+
+      
+      <span class="pagenumber">10</span>
+      </article>
+  
+  
+  
+      <article class="">
+      
+        <h3>Abstract Class Code</h3>
+        
+  <div class="code">
+
+
+<pre><span num="1">@startuml</span>
+<span num="2">abstract class AbstractClass {</span>
+<span num="3">    + String publicData</span>
+<span num="4">    - String privateData</span>
+<span num="5">    # String protectedData</span>
+<span num="6"></span>
+<span num="7">    + {abstract} void abstractMethod()</span>
+<span num="8">}</span>
+<span num="9">@enduml</span>
+</pre>
+
+
+</div>
+
+      
+      <span class="pagenumber">11</span>
+      </article>
+  
+  
+  
+      <article class="far-past">
+      
+        <h3>Interface Example</h3>
+        
+  
+  <p>
+    Interfaces don't have implementations but is a contract for which the class that <b>implements</b> it needs to adhere to, namely the parameter and return types.
+  </p>
+  
+
+<div class="image">
+  <img src="./uml_class_diagram_files/uml_interface_example.png">
+</div>
+
+      
+      <span class="pagenumber">12</span>
+      </article>
+  
+  
+  
+      <article class="past">
+      
+        <h3>Interface Code</h3>
+        
+  <div class="code">
+
+
+<pre><span num="1">@startuml</span>
+<span num="2">interface Interface {</span>
+<span num="3">    + void publicMethod()</span>
+<span num="4">}</span>
+<span num="5">@enduml</span>
+</pre>
+
+
+</div>
+
+      
+      <span class="pagenumber">13</span>
+      </article>
+  
+  
+  
+      <article class="current">
+      
+        <h2>Class Relations</h2>
+      
+      <span class="pagenumber">14</span>
+      </article>
+  
+  
+  
+      <article class="next">
+      
+        <h3>Class Inheritance Example</h3>
+        
+  
+  <p>
+    Inheritance represents the <b>is</b> <b>a</b> relationship. For instance, a cat or a dog is a mammal.
+  </p>
+  
+
+<div class="image">
+  <img src="./uml_class_diagram_files/uml_class_inheritance_example.png">
+</div>
+
+      
+      <span class="pagenumber">15</span>
+      </article>
+  
+  
+  
+      <article class="far-next">
+      
+        <h3>Class Inheritance Code</h3>
+        
+  <div class="code">
+
+
+<pre><span num="1">@startuml</span>
+<span num="2">class Mammal {</span>
+<span num="3">    + void greet()</span>
+<span num="4">}</span>
+<span num="5"></span>
+<span num="6">class Cat {</span>
+<span num="7">    + void greet()</span>
+<span num="8">}</span>
+<span num="9"></span>
+<span num="10">class Dog {</span>
+<span num="11">    + void greet()</span>
+<span num="12">}</span>
+<span num="13"></span>
+<span num="14">Cat &lt;|-- Mammal</span>
+<span num="15">Dog &lt;|-- Mammal</span>
+<span num="16">@enduml</span>
+</pre>
+
+
+</div>
+
+      
+      <span class="pagenumber">16</span>
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>Class Composition Example</h3>
+        
+  
+  <p>
+    Composition represents the <b>has</b> <b>an</b> <b>instance</b> relationship. For instance, a car has an engine.
+  </p>
+  
+
+<div class="image">
+  <img src="./uml_class_diagram_files/uml_class_composition_example.png">
+</div>
+
+      
+      <span class="pagenumber">17</span>
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>Class Composition Code</h3>
+        
+  <div class="code">
+
+
+<pre><span num="1">@startuml</span>
+<span num="2">left to right direction</span>
+<span num="3"></span>
+<span num="4">class Piston</span>
+<span num="5">class Engine {</span>
+<span num="6">    - Piston piston</span>
+<span num="7">}</span>
+<span num="8"></span>
+<span num="9">class Car {</span>
+<span num="10">    - Engine engine</span>
+<span num="11"></span>
+<span num="12">    + void turn()</span>
+<span num="13">    + void accelerate()</span>
+<span num="14">}</span>
+<span num="15"></span>
+<span num="16">Car *-- Engine</span>
+<span num="17">Engine *-- Piston</span>
+<span num="18"></span>
+<span num="19">@enduml</span>
+</pre>
+
+
+</div>
+
+      
+      <span class="pagenumber">18</span>
+      </article>
+  
+  
+  
+      <article>
+      
+        <h2>Packages</h2>
+      
+      <span class="pagenumber">19</span>
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>What are packages?</h3>
+        
+  
+  <p>
+    Packages are a way to organize code that are similar in functionality because it works with the same domain.
+  </p>
+  
+
+  
+  <p>
+    For instance, an application may have third party API integrations and can group all APIs by functional aspect. They may also be grouped to a specific domain, such as a package for Twitter integration and another package for Microsoft integrations.
+  </p>
+  
+
+      
+      <span class="pagenumber">20</span>
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>Packages Example</h3>
+        
+<div class="image">
+  <img src="./uml_class_diagram_files/uml_packages_example.png">
+</div>
+
+      
+      <span class="pagenumber">21</span>
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>Packages Code</h3>
+        
+  <div class="code">
+
+
+<pre><span num="1">@startuml</span>
+<span num="2">namespace com.sample.www {</span>
+<span num="3">    class SimpleClass {</span>
+<span num="4">        + String publicData</span>
+<span num="5">        + void print()</span>
+<span num="6">    }</span>
+<span num="7">}</span>
+<span num="8">@enduml</span>
+</pre>
+
+
+</div>
+
+      
+      <span class="pagenumber">22</span>
+      </article>
+  
+  
+  
+      <article>
+      
+        <h2>A More Complete Example</h2>
+      
+      <span class="pagenumber">23</span>
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>UML Example: E-commerce Diagrams</h3>
+        
+<div class="image">
+  <img src="./uml_class_diagram_files/uml_class_diagram_code_example.png">
+</div>
+
+      
+      <span class="pagenumber">24</span>
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>UML Example: E-commerce Diagram PlantUML Code</h3>
+        
+  <div class="code">
+
+
+<pre><span num="1">@startuml</span>
+<span num="2">namespace com.commerce.example {</span>
+<span num="3">    class LineItem {</span>
+<span num="4">        + String category</span>
+<span num="5">        + float price</span>
+<span num="6">        + int quantity</span>
+<span num="7"></span>
+<span num="8">        + float totalPrice()</span>
+<span num="9">    }</span>
+<span num="10"></span>
+<span num="11">    class Cart {</span>
+<span num="12">        + LineItem []items</span>
+<span num="13">        + boolean addItem(LineItem item)</span>
+<span num="14">        + boolean checkOut()</span>
+<span num="15">    }</span>
+<span num="16"></span>
+<span num="17">    Cart *-- LineItem</span>
+<span num="18">}</span>
+<span num="19">@enduml</span>
+</pre>
+
+
+</div>
+
+      
+      <span class="pagenumber">25</span>
+      </article>
+  
+  
+  
+      <article>
+      
+        <h3>Summary</h3>
+        
+  <ul>
+  
+    <li>Class diagrams help you visualize the components that make up your application</li>
+  
+  </ul>
+
+      
+      <span class="pagenumber">26</span>
+      </article>
+  
+  
+
+      <article>
+        <h3>Thank you</h3>
+        
+          <div class="presenter">
+            
+  
+  <p>
+    William Chan
+  </p>
+  
+
+  
+  <p>
+    Lead Platform Engineer, 605.tv, Capital One, FreeWheel (Comcast)
+  </p>
+  
+<p class="link"><a href="http://linkedin.com/in/wchan2" target="_blank">http://linkedin.com/in/wchan2</a></p>
+          </div>
+        
+      </article>
+
+    <div class="slide-area" id="prev-slide-area"></div><div class="slide-area" id="next-slide-area"></div></section>
+
+    <div id="help" style="display: none;">
+      Use the left and right arrow keys or click the left and right
+      edges of the page to navigate between slides.<br>
+      (Press 'H' or navigate to hide this message.)
+    </div>
+
+    
+    <script src="./uml_class_diagram_files/play.js"></script>
+    
+
+    <script>
+      (function() {
+        
+        if (window["location"] && window["location"]["hostname"] == "talks.golang.org") {
+          var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true;
+          ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+          var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);
+        }
+      })();
+    </script>
+  
+
+<link rel="stylesheet" type="text/css" href="./uml_class_diagram_files/css"><link rel="stylesheet" type="text/css" href="./uml_class_diagram_files/styles.css"></body></html>

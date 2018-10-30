@@ -1,0 +1,5 @@
+@startuml
+interface Interface {
+    + void publicMethod()
+}
+@enduml

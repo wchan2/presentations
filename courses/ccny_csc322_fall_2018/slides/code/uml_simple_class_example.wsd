@@ -1,0 +1,15 @@
+@startuml
+class SimpleClass {
+    + {static} String publicStaticVariable
+    - {static} String privateStaticVariable
+    # {static} String protectedStaticVariable
+
+    + String publicData
+    - String privateData
+    # String protectedData
+
+    + void : publicMethod()
+    - void : privateMethod()
+    # void : protectedMethod()
+}
+@enduml

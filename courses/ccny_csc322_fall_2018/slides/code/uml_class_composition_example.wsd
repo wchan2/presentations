@@ -1,0 +1,19 @@
+@startuml
+left to right direction
+
+class Piston
+class Engine {
+    - Piston piston
+}
+
+class Car {
+    - Engine engine
+
+    + void turn()
+    + void accelerate()
+}
+
+Car *-- Engine
+Engine *-- Piston
+
+@enduml

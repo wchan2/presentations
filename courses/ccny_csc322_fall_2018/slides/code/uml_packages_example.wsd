@@ -1,0 +1,8 @@
+@startuml
+namespace com.sample.www {
+    class SimpleClass {
+        + String publicData
+        + void print()
+    }
+}
+@enduml

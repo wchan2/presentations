@@ -1,0 +1,19 @@
+@startuml
+namespace com.commerce.example {
+    class LineItem {
+        + String category
+        + float price
+        + int quantity
+
+        + float totalPrice()
+    }
+
+    class Cart {
+        + LineItem []items
+        + boolean addItem(LineItem item)
+        + boolean checkOut()
+    }
+
+    Cart *-- LineItem
+}
+@enduml

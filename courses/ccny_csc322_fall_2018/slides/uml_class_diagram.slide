@@ -38,17 +38,43 @@ Documentation: http://plantuml.com/class-diagram
 
 * Diagram Tutorial
 
-* Class Example
+* Simple Class Example
 
 .image images/uml_simple_class_example.png
 
-* Class Code
+* Simple Class Code
 
 .code code/uml_simple_class_example.wsd
+
+* Abstract Classes and Interfaces
+
+* Abstract Class Example
+
+An abstract class is a class with one of more abstract methods, methods without implementation where a class that extends it should implement the abstract method.
+
+Note: objects can not be created from abstract classes
+
+.image images/uml_abstract_class_example.png
+
+* Abstract Class Code
+
+.code code/uml_abstract_class_example.wsd
+
+* Interface Example
+
+Interfaces don't have implementations but is a contract for which the class that *implements* it needs to adhere to, namely the parameter and return types.
+
+.image images/uml_interface_example.png
+
+* Interface Code
+
+.code code/uml_interface_example.wsd
 
 * Class Relations
 
 * Class Inheritance Example
+
+Inheritance represents the *is* *a* relationship. For instance, a cat or a dog is a mammal.
 
 .image images/uml_class_inheritance_example.png
 
@@ -58,11 +84,29 @@ Documentation: http://plantuml.com/class-diagram
 
 * Class Composition Example
 
+Composition represents the *has* *an* *instance* relationship. For instance, a car has an engine.
+
 .image images/uml_class_composition_example.png
 
 * Class Composition Code
 
 .code code/uml_class_composition_example.wsd
+
+* Packages
+
+* What are packages?
+
+Packages are a way to organize code that are similar in functionality because it works with the same domain.
+
+For instance, an application may have third party API integrations and can group all APIs by functional aspect. They may also be grouped to a specific domain, such as a package for Twitter integration and another package for Microsoft integrations.
+
+* Packages Example
+
+.image images/uml_packages_example.png
+
+* Packages Code
+
+.code code/uml_packages_example.wsd
 
 * A More Complete Example
 
