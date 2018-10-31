@@ -37,12 +37,12 @@ The goal of this course is to gain experience developing a project using modern 
 ## Project and Presentation Breakdown
 
 1. Product: What problem does your product solve?
-2. Planning: What software methodology did you choose? Why? What milestones if any were put in place?
-3. Requirements: What were the requirements for your minimal viable product (MVP)? Why?
-4. Technical Design: UML diagrams and the high overview of the components in your software
-5. Tests: What tests will you have in place to ensure the quality of your application?
-6. Demo: Full demo ideally or present what you have and mention why it didn't turn out the way you hoped in your retrospective
-7. Retrospective: What worked well and what didn't? What could you have done better knowing what you know now?
+1. Planning: What software methodology did you choose? Why? What milestones if any were put in place?
+1. Requirements: What were the requirements for your minimal viable product (MVP)? Why?
+1. Technical Design: UML diagrams and the high overview of the components in your software
+1. Tests: What tests will you have in place to ensure the quality of your application?
+1. Demo: Full demo ideally or present what you have and mention why it didn't turn out the way you hoped in your retrospective
+1. Retrospective: What worked well and what didn't? What could you have done better knowing what you know now?
 
 For more details, click [here](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/presentations.md).
 
@@ -55,10 +55,10 @@ A grading sheet will be handed out during class before presentations and will be
 **Note**: Please don't grade individuals purely based on how technical someone else. Please put more emphasis into how proactive they are, how helpful they are and how much they actually contributed. Remember contributions are not always purely technical. Some examples could be, facilitating and helping the team improve communication, etc. _Try to give specific examples_.
 
 1. What did the team member contribute to?
-2. How did the team member contribute to the project?
-3. Did you feel like the team member was inclusive? What did they do or didn't do to make you feel that way?
-4. Would you work with this individual in a professional setting? Why or why not?
-5. From a score of 1 to 10 with 10 being the best, how will you grade the team member?
+1. How did the team member contribute to the project?
+1. Did you feel like the team member was inclusive? What did they do or didn't do to make you feel that way?
+1. Would you work with this individual in a professional setting? Why or why not?
+1. From a score of 1 to 10 with 10 being the best, how will you grade the team member?
 
 ## Schedule and Slides
 
