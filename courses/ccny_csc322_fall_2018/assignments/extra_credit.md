@@ -2,7 +2,7 @@
 
 This assignment will be up to 5% of your final grade and is an individual assignment.
 
-**Gather requirements** and **draw the UML diagrams** for the *MVP*of*Netflix*.
+**Gather requirements** and **draw the UML diagrams** for the *Netflix* *MVP* after their DVD business. Think of all the aspects of the businesses. How does Netflix get their content? Who do they serve?
 
 # Requirements Gathering
 
