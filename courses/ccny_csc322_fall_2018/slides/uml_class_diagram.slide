@@ -100,7 +100,7 @@ Composition represents the *has* *an* *instance* relationship. For instance, a c
 
 * What are packages?
 
-Packages are a way to organize code that are similar in functionality because it works with the same domain.
+Packages are a way to organize class that are similar in functionality because it works with the same domain.
 
 For instance, an application may have third party API integrations and can group all APIs by functional aspect. They may also be grouped to a specific domain, such as a package for Twitter integration and another package for Microsoft integrations.
 
