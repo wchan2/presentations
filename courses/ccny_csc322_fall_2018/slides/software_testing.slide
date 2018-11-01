@@ -1,0 +1,70 @@
+Software Testing: Unit Testing and Acceptance Testing
+Bulletproofing your application
+
+William Chan
+Lead Platform Engineer, 605.tv, Capital One, FreeWheel (Comcast)
+http://linkedin.com/in/wchan2
+
+* Objectives
+
+- Learn what the different types of testing are and what they test
+- Learn what tests are helpful when time is a constraint
+- Learn how to unit test properly with mocks and stubs
+
+* Different Types of Testing
+
+- Unit testing
+- Integration testing
+- Acceptance or End-to-End testing
+
+* Testing Pyramid
+
+.image images/testing_pyramid.png
+
+* Unit Testing
+
+* What is Unit Testing?
+
+Unit testing is
+
+* What are Stubs?
+
+Stubs are
+
+* What are Mocks?
+
+Mocks are
+
+* Structuring Unit tests
+
+TODO: Rely on interfaces instead of concrete types
+
+* Acceptance Testing
+
+* What is Acceptance Testing and End-to-End testing?
+
+Acceptance testing or End-to-End testing is
+
+* Different Philosophies of Testing
+
+- TDD
+
+* Different Flavors of Testing
+
+- BDD
+- xUnit
+
+* Testing Tools
+
+* Unit Testing Tools
+
+- Mocks
+- Stubs
+
+* Acceptance Testing Tools
+
+- Cucumber
+
+* Summary
+
+- 
