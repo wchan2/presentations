@@ -1,0 +1,77 @@
+Software Engineering Ethics
+
+William Chan
+Lead Platform Engineer, 605.tv, Capital One, FreeWheel (Comcast)
+http://linkedin.com/in/wchan2
+
+* Objectives
+
+- Why software engineering ethics matter
+- Ethics and the code of conduct of being a software engineer
+- Resources to keep on top of exploited security problems in the industry
+- Types of hackers and their roles
+
+* Software Engineering Ethics
+
+Ethics are an important facet of engineering that is often disregarded. While software often times are written to improve the way we work more efficiently, we also need to protect our users' and clients' assets and data.
+
+* Software Engineering Code of Ethics and Professional Practice
+
+Released as a joint effort of the ACM and IEEE Computer Societies
+
+1. Public - software engineers shall act consistently with the public interest
+2. Client and employer - software engineers shall act in a manner that is in the best interests of their client and employer consistent with the public interest
+3. Product - software engineers shall ensure that their products and related modifications meet the highest professional standards possible
+4. Judgment - software engineers shall maintain integrity and independence in their professional judgment
+5. Management - software engineering managers and leaders shall subscribe to and promote an ethical approach to management of software development and maintenance
+6. Profession - software engineers shall advance the integrity and reputation of the profession consistent with the public interest
+7. Colleagues - software engineers shall be fair and supportive of their Colleagues
+8. Self - software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the profession
+
+Source: https://ethics.acm.org/code-of-ethics/software-engineering-code/
+
+* Software Privacy
+
+As software eats the world, data privacy has become more of an issue due to the nature of the amount of data collected to analyze and fuel efforts in machine learning & artificial intelligence.
+
+.link https://money.cnn.com/2018/07/10/technology/facebook-britain-ico-cambridge-analytica-fine/index.html Facebook broke the law and faces maximum fine for Cambridge Analytica scandal, UK watchdog says
+.link https://www.bbc.com/news/technology-46065796 Private messages from 81,000 hacked Facebook accounts for sale
+.link https://techcrunch.com/2018/10/08/google-plus-hack/ Google+ to shutdown after coverup of data-exposing bug
+.link https://money.cnn.com/2017/10/03/technology/business/yahoo-breach-3-billion-accounts/index.html Every single Yahoo account was hacked - 3 billion in all
+
+* Hacking Software
+
+* OWASP Top 10 2017
+
+- Injection - injecting query and command statements into the database via unsanitized query and command statements
+- Broken Authentication - authentication and session management services implemented incorrectly
+- Sensitive Data Exposure - sensitive data being exposed
+- XML External Entities - usage of weak XML parsers that leads to the leak of additional data
+- Broken Access Control - restrictions on what authentication users can be do are often not properly enforced and implemented
+- Security Misconfiguration - software not properly patched and upgraded or configurations leading to verbose error messages
+- Cross Site Scripting (XSS) - malicious scripts are injected by attackers into the application environment
+- Insecure Deserialization - serialization of RPC messages that lead to remote code execution
+- Using components with Known Vulnerabilities - use of software modules, frameworks or libraries that have known security issues
+- Insufficient Logging & Monitoring - logging and monitoring not in place to warn and alert responsible parties that systems may have been compromised
+
+Source: https://www.owasp.org/index.php/Top_10-2017_Top_10
+
+* Ethical Hacking
+
+Ethical hacking is the practice of penetration testing into a system to find threads and vulnerabilities
+
+There is also a certification that one can learn about hacking ethically and become a white hat hacker to better help serve organizations to build more secure software
+
+.link https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/ Certified Ethical Hacker
+
+* Types of Hackers
+
+- Black Hat Hackers - hackers that hack systems for personal gain
+- White Hat Hackers - hackers that are hired to hack systems to help secure vulnerabilities
+- Gray Hat Hackers - hackers that are neither are hired or hack systems for personal gain but hack systems to exploit vulnerabilities
+
+* Summary
+
+- Software engineering as a discipline is the due diligence to do whatever possible to prevent security errors
+- Paying attention to the OWASP Top 10 helps keeping on top of industry trends and what to watch out for
+- Different types of hackers have different initiatives but hacking can also be made a career path to help others become better at protecting other people's privacy, data and assets
