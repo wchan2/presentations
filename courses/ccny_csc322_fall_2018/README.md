@@ -76,7 +76,7 @@ A grading sheet will be handed out during class before presentations and will be
 | 10/31/2018 | UML Diagramming: Sequence Diagram | [Download](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/uml_sequence_diagram.pdf) |  |
 | 11/7/2018 | UML Diagramming: Class Diagram | [Download](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/uml_class_diagram.pdf) |  |
 | 11/14/2018 | UML Diagramming Midterm |  |  |
-| 11/21/2018 | Software Testing: Unit Testing and Acceptance Testing | TBD | [UML](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/uml.md) |
+| 11/21/2018 | Software Testing: Unit Testing and Acceptance Testing | [Download](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/slides/software_testing.pdf) | [UML](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/uml.md) |
 | 11/28/2018 | Continuous Integration & Delivery | TBD |  |
 | 12/5/2018 | Software Engineering Ethics | TBD |  |
 | 12/12/2018 | Final |  | [Extra Credit](https://github.com/wchan2/presentations/blob/master/courses/ccny_csc322_fall_2018/assignments/extra_credit.md) |

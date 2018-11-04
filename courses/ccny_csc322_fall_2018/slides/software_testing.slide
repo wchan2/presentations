@@ -11,60 +11,156 @@ http://linkedin.com/in/wchan2
 - Learn what tests are helpful when time is a constraint
 - Learn how to unit test properly with mocks and stubs
 
+* What is software testing?
+
+Testing software helps build in quality into the application and helps prevent bugs from leaking into software as new features are developed.
+
+* What are the benefits of testing your software?
+
+- It helps you pinpoint and debug the component and the precise location of where an error may have occurred
+- It helps with *regression*; to ensure that delivery of new features are intended to have a conflict with existing features
+
+* What is exploratory testing?
+
+Exploratory testing is a stimulating activity that documents how a user uses the product and exploring use cases that help automate tests. Often this helps with discovering non-obvious errors.
+
 * Different Types of Testing
 
-- Unit testing
-- Integration testing
-- Acceptance or End-to-End testing
+- Unit tests - low level, close to the source of the application
+- Integration tests - tests the integration of modules and services in the application that work in conjunction with one another
+- Functional tests - focuses on business requirements and tests the functions of the application
+- End-to-end tests - tests the software in a complete application environment
+- Acceptance tests - tests that the software satisfies business requirements
+- Performance tests - tests that the performance characteristics under significant load
+- Smoke tests - tests that basic functionality of the application; are usually quick to run in nature
 
 * Testing Pyramid
 
 .image images/testing_pyramid.png
 
+Tests are more costly in terms of run time and complexity as it integrates with more components
+
+Source: https://martinfowler.com/articles/practical-test-pyramid.html
+
 * Unit Testing
 
 * What is Unit Testing?
 
-Unit testing is
+Unit testing are testing *individual* units of code.
+
+A unit of code is an object or a behavior in the code. In a unit test, dependencies are typically *mocked* or *stubbed* to isolate the test to test the unit instead of testing it in integration with its dependencies.
 
 * What are Stubs?
 
-Stubs are
+Stubs simulate the behavior of an object. It allows for easily testing different *cases* by testing forcing code to step into different branches of control flow structures.
 
 * What are Mocks?
 
-Mocks are
+Mocks are similar to stubs but with the difference that they expect that it has been used correctly.
 
-* Structuring Unit tests
+* Unit Testing Principles
 
-TODO: Rely on interfaces instead of concrete types
+- Rely on interfaces instead of concrete types so that you can mock out dependencies
+- Rely on dependency injection instead of creating the type within the function's methods
 
 * Acceptance Testing
 
 * What is Acceptance Testing and End-to-End testing?
 
-Acceptance testing or End-to-End testing is
+Acceptance testing are a general form of end-to-end tests. Acceptance tests are generally written as a specification that the product owner reads and can use to accept and mark the stories as complete.
 
-* Different Philosophies of Testing
+Depending on the size of the system they can usually be larger.
 
-- TDD
+* Test Driven Development (TDD)
 
-* Different Flavors of Testing
+1. Write tests as a specification for intended application components
+2. Write code in the components to pass the tests that were written
 
-- BDD
-- xUnit
+*Red/Green* *Testing*
+1. Write the simplest test case for iterating on the feature that fails
+2. Write the simplest code that passes the test cases
+
+* Red/Green Testing Cont'd
+
+.image images/red_green_testing.png
+
+Source: http://ryantablada.com/post/red-green-refactor---a-tdd-fairytale
+
+* Behavior Driven Development (BDD)
+
+Testing behaviors of the tests
+
+An example in Jasmine (JavaScript)
+
+    describe("MathUtils", function() {
+        var calc;
+
+        beforeEach(function() {
+            calc = new MathUtils();
+        });
+
+        describe("when calc is used to peform basic math operations", function(){        
+            it("should be able to calculate sum of 3 and 5", function() {
+                expect(calc.sum(3,5)).toEqual(8);
+            });
+        });
+    });
 
 * Testing Tools
 
 * Unit Testing Tools
 
-- Mocks
-- Stubs
+*JavaScript*
+- Jasmine, Mocha, Chai, Sinon
+
+*Java*
+- JUnit, Mockito, Spock
+
+*Python*
+- unittest, pytest, nose
+
+*Ruby*
+- RSpec, Test::Unit
 
 * Acceptance Testing Tools
 
-- Cucumber
+- Cucumber - uses a syntax called *Gherkin* that reads similar to English
+- Selenium - web browser automation testing framework to test user behavior
+- PhantomJS - headless browser testing to test front end features and behaviors
+
+* Sample Gherkin Syntax
+
+Source: http://docs.behat.org/en/v2.5/guides/1.gherkin.html
+
+    Feature: Serve coffee
+    In order to earn money
+    Customers should be able to
+    buy coffee at all times
+
+    Scenario: Buy last coffee
+        Given there are 1 coffees left in the machine
+        And I have deposited 1 dollar
+        When I press the coffee button
+        Then I should be served a coffee
+
+* Testing Metrics
+
+*Coverage*
+
+- Lines - percentage of lines that are covered
+- Statement - percentage of statements covered; statements can sometimes span multiple lines
+- Branches - percentage of branches that are covered
+- Functions - percentage of functions that are covered
+
+* Sample Test Coverage Report
+
+.image images/sample_test_coverage_report.png
+
+Source: http://revolunet.github.io/blog/2013/12/05/unit-testing-angularjs-directive/
 
 * Summary
 
-- 
+- Unit testing techniques using mocks and stubs to isolate testing a unit of code rather than code in integration
+- Acceptance testing can help verify product and business requirements
+- The more integrated a test is, the more complex and time required to run the test
+- Test coverage metrics to get an overview of where tests may be lacking
