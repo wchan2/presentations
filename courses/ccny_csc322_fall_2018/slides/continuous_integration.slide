@@ -7,9 +7,9 @@ http://linkedin.com/in/wchan2
 
 * Objectives
 
-- Learn what the different types of testing are and what they test
-- Learn what tests are helpful when time is a constraint
-- Learn how to unit test properly with mocks and stubs
+- Learn what the continuous integration, deployment, and delivery are
+- Learn the benefits of continuous integration, deployment and delivery
+- Learn existing tools of continuous integration, deployment and delivery
 
 * What is Continuous Integration?
 

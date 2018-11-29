@@ -10,13 +10,13 @@ http://linkedin.com/in/wchan2
 - Learn how to sketch your application components in a class diagram
 - Learn what components are in a class diagram
 
-* UML Diagram Diagrams
+* UML Class Diagrams
 
 Lays out the sketches of classes, namely the follow
 
+- The relationships of different classes, methods and instance variables
 - *Public*, *private* and *protected* instance variables
 - *Public*, *private* and *protected* instance methods
-- The relationships of different classes
 
 * Use Case Diagram components
 
