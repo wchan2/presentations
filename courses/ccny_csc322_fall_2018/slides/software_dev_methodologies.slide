@@ -210,7 +210,6 @@ its behavior accordingly.
 
 *Methodologies*
 - Scrum - breaking down work into timeboxed iterations, called sprints
-- Kanban - based on the flow of work and the elimination of wastes, focusing just on the value delivered
 - Scrumban - combination of scrum and kanban
 
 *For* *larger* *organizations*
@@ -258,6 +257,14 @@ Source: https://www.youtube.com/watch?v=IyhaZ5gNZ_M
 .image images/velocity_chart.png
 
 Source: https://www.researchgate.net/figure/Velocity-chart-using-JIRA-following-scrum-approach_fig2_316665790
+
+* What is Lean?
+
+Lean is a mindset of eliminating waste and non-valuable work. It focuses on flow of value, value stream, flow, pull and perfection.
+
+* Lean Methodologies
+
+- Kanban - based on the flow of work and the elimination of wastes, focusing just on the value delivered
 
 * Kanban
 
